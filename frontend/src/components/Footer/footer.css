@@ -1,0 +1,35 @@
+.b1 {
+  height: 120.04px;
+  background-color: rgb(244, 249, 251);
+}
+.b2 {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.b3 {
+  display: flex;
+  width: 64%;
+  margin: auto;
+  margin-top: 2%;
+  margin-left: 18%;
+}
+.b4 {
+  margin-top: 1.7%;
+}
+.b5 {
+  font-size: 12px;
+  margin-top: 1%;
+}
+.tag {
+  font-size: 12px;
+  margin-right: 2%;
+  cursor: pointer;
+  color: blue;
+}
+.select {
+  width: 120px;
+  height: 20px;
+  border: 1px solid rgb(8, 8, 8);
+  font-size: 12px;
+}
