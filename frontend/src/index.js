@@ -10,20 +10,16 @@ import { store } from "./redux/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	// // <ChakraProvider>
-	// <React.StrictMode>
-	// 	<BrowserRouter>
-	// 		{/* <Provider store={store}> */}
-	// 			<App />
-	// 		{/* </Provider> */}
-	// 	</BrowserRouter>
-	// </React.StrictMode>
-	// // </ChakraProvider>
 
-	// <React.StrictMode>
+
+
+  <ChakraProvider>
     <BrowserRouter>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </BrowserRouter>
-//   </React.StrictMode>
+  </ChakraProvider>
+
 );
 // reportWebVitals();
