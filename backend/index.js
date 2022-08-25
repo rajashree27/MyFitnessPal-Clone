@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 const express = require("express");
 
 const connection = require("./config/db");
@@ -9,7 +9,8 @@ const breakfastRouter = require("./routes/breakfast");
 const lunchRouter = require("./routes/lunch");
 const snackRouter = require("./routes/snack");
 const dinnerRouter = require("./routes/dinner");
-
+const cardioRouter = require("./routes/cardio.Router")
+const strengthRouter=require("./routes/strength.Router")
 const app = express();
 
 app.get("/", (req, res) => {
@@ -31,6 +32,9 @@ app.use("/lunch", lunchRouter);
 app.use("/snack", snackRouter);
 
 app.use("/dinner", dinnerRouter);
+
+app.use("/exercise/cardio",cardioRouter);
+app.use("/exercise/strength",strengthRouter);
 
 app.listen(process.env.PORT, async () => {
     try {
