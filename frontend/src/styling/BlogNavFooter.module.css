@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* blog navbar css */
+.homeicondiv{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: grey;
+    margin-bottom: -5px;
+    font-size: 14px;
+}
+.homeicon{
+    color: #0066EE;
+    
+}
+.socialMediaIconDiv{
+    text-align: right;
+    display: flex;
+    gap: 4%;
+    margin-left: 82%;
+    margin-top: -4px;
+}
+.socialMediaIconFB{
+color: #062d5f;
+font-size: 21px;
+}
+.socialMediaIconTwitter{
+color: #0471ffe3;
+font-size: 21px;
+}
+.socialMediaIconInsta{
+color: palevioletred;
+font-size: 21px;
+}
+.socialMediaIconPin{
+    color: red;
+    font-size: 21px;
+}
+.socialMediaIconSearch{
+    color: #0066EE;
+    font-size: 21px;
+}
+.SubHeader_Container{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    background: #0066EE;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* blog footer css */
+.blogFooterContainer{
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+}
+.FootlogoContainer{
+text-align: center;
+padding: 4%;
+color: #0066EE;
+font-size: 22px;
+}
+@media all and (min-width: 381px) and (max-width: 700px) {
+    .FootlogoContainer {
+        text-align: center;
+        padding: 2%;
+        color: #0066EE;
+        font-size: 16px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+  }
+  @media all and (min-width: 0px) and (max-width: 380px) {
+    .FootlogoContainer {
+        text-align: center;
+        padding: 2%;
+        color: #0066EE;
+        font-size: 12px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+  }
+
+.MiniFootlogoContainer{
+text-align: center;
+color: #0066EE;
+font-size: 16px;
+}
+.BlogFootlogoPara{
+    text-align: center;
+    /* padding: 0.5% 20% 0.5% 20%; */
+    color: rgb(102, 98, 98)
+}
+.BlogFootlogoPara>p{
+    padding: 0.5% 21% 0.5% 21%;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+.lowerFootlogoContainer{
+    text-align: center;
+color: #0066EE;
+font-size: 16px;
+font-weight: bold;
+margin-top: 7%;
+}
+.CopyRightFootlogoContainer{
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(102, 98, 98);
+    margin-top: 2%;
+}
