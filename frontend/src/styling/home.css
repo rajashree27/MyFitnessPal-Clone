@@ -1,0 +1,210 @@
+.top-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-column {
+  width: 20%;
+}
+
+.bottom-left-column {
+  background-color: #ffdd33;
+}
+
+.mid-column {
+  width: 100%;
+  background-image: url(https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-collage-top-large%402x.dcc5ac56.png&w=1200&q=75);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-column {
+  width: 10%;
+  background-color: #ffdd33;
+}
+
+.container {
+  width: 50%;
+  margin: 40px 0;
+}
+
+.description {
+  margin: 30px 0;
+  width: 60%;
+}
+
+.second-section {
+  background-color: #ffdd33;
+}
+
+.second-section-heading {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.whiteLine {
+  width: 80%;
+  height: 8px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  top: 35px;
+  z-index: 1;
+}
+
+.second-section-des {
+    padding-top: 30px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.third-section {
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+    background-color: #ffdd33;
+}
+
+.third-section-img {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    background-image: url(https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-collage-search-bottom-large%402x.34b86b17.png&w=3840&q=75);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.input-box {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    padding: 16px;
+}
+
+.inner-input-box {
+    width: 85%;
+    margin: auto;
+}
+
+.search-Icon {
+    padding-top: 8px;
+    width: 6%;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    color: blue;
+}
+
+.inner-input-box input {
+    font-size: 36px;
+    width: 100%;
+    outline: 0;
+}
+
+.fourth-section-innerBox {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.fourth-section-des {
+    margin: auto;
+    width: 60%;
+    padding-top: 24px;
+}
+
+.fifth-section {
+    width: 60%;
+    margin: auto;
+}
+
+.fifth-section-heading {
+    margin: 24px;
+    text-align: center;
+}
+
+.fifth-section-des {
+    margin: 24px;
+    text-align: center;
+}
+
+.carousel-inner {
+    width: 75%;
+    margin: auto;
+}
+
+.carousel-item {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sixth-section {
+    width: 60%;
+    margin: auto;
+}
+
+.sixth-section-heading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sixth-section-cards {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.seventh-section {
+    width: 40%;
+    margin: auto;
+}
+
+.seventh-section-heading {
+    text-align: center;
+}
+
+@media screen and (max-width: 595px) {
+    .left-column, .right-column {
+        display: none;
+    }
+    .mid-column {
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+        margin: 15px 0;
+    }
+    .second-section {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 889px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
