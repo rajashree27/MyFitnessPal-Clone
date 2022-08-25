@@ -41,9 +41,12 @@ app.get(
 app.get(
   "/google/callback",
   passport.authenticate("google", {
-    successRedirect: "/dashboard",
+    successRedirect: "http://localhost:3000",
     failureRedirect: "/auth/google/failure",
-  })
+  }),
+  (req, res) => {
+    res.send(req.user.displayName);
+  }
 );
 
 app.get("/auth/google/failure", (req, res) => {

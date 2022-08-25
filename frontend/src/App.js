@@ -4,16 +4,18 @@ import Headertop from "./components/Headertop";
 // import Footer from "./components/Footer/Footer";
 
 import MyHome from "./pages/MyHome";
+import MainRoutes from "./routes/MainRoutes";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <Navbar />
       <Myhome/> */}
       {/* <Footer /> */}
-      <Headertop/>
+      {/* <Headertop/>
       <Header/>
-      <MyHome/> 
+      <MyHome/>  */}
+      <MainRoutes />
     </div>
   );
 }
