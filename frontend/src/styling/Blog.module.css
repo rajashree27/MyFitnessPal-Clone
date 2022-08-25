@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+  }
+  .blogMainContainer {
+    padding: 0% 5%;
+  }
+  /* TrendingArticles */
+  .sliderImage {
+    width: 100%;
+    height: 50%;
+  }
+  .sliderImageDiv {
+    padding: 2%;
+  }
+  .sliderText {
+    padding: 2% 4% 8% 4%;
+    margin-bottom: 2%;
+    color: grey;
+  }
+  .sliderText:hover {
+    color: #0066ee;
+  }
+  .TRENDINGDiv {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px #0066ee;
+    color: grey;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+  }
+  .line {
+    width: 83%;
+    height: 2px;
+    background-color: #0066ee;
+  }
+  
+  /* Latest Articles */
+  
+  .LATESTDiv {
+    margin-top: 2%;
+    border-bottom: 1px #0066ee;
+    color: grey;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+  }
+  .line2 {
+    width: 85%;
+    height: 2px;
+    background-color: #0066ee;
+  }
+  .blogTrendingPoster {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  
+  .trendingBlogImages > div:nth-child(1) {
+    grid-area: "a";
+  }
+  .trendingBlogImages > div:nth-child(2) {
+    grid-area: "b";
+  }
+  .trendingBlogImages > div:nth-child(3) {
+    grid-area: "c";
+  }
+  .trendingBlogImages > div:nth-child(4) {
+    grid-area: "d";
+  }
+  .trendingBlogImages > div:nth-child(5) {
+    grid-area: "e";
+  }
+  .trendingBlogImages > div:nth-child(6) {
+    grid-area: "f";
+  }
+  .trendingBlogImages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+    margin-bottom: 2%;
+  }
+  .trendingBlogGridImages {
+    width: 100%;
+    height: 75%;
+  }
+  
+  /* medium */
+  
+  @media all and (min-width: 381px) and (max-width: 700px) {
+    .trendingBlogImages {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "a b"
+        "c d"
+        "e f";
+    }
+  }
+  @media all and (min-width: 0px) and (max-width: 380px) {
+    .trendingBlogImages {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f";
+    }
+  }
+  
+  .blogHomeLoadMore {
+    text-align: center;
+    background-color: #0066ee;
+    color: white;
+    height: 100%;
+    padding: 0.8%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    cursor: pointer;
+  }
+  .blogHomeLoadMore:hover {
+    font-size: 17px;
+  }
+  .trendingBlogGridHeading:hover {
+    color: #0066ee;
+  }
+  .trendingBlogGridPara {
+    font-size: 14px;
+    color: grey;
+  }
