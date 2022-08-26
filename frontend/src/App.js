@@ -27,11 +27,11 @@ function App() {
       <MyHome/>  */}
       <MainRoutes />
 
-      <Routes>
+      {/* <Routes>
      <Route path="/recipes" element={<Recipes_Page />} />
      </Routes>
    
-   <BlogHomePage/>
+   <BlogHomePage/> */}
 
     </div>
   );
