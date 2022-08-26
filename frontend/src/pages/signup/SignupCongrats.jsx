@@ -9,8 +9,10 @@ import {
 import React from "react";
 import SignupNavbar from "../../components/signup/SignupNavbar";
 import "./SignupStyles.css";
+import { useNavigate } from "react-router-dom";
 
 const SignupCongrats = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<SignupNavbar />
@@ -46,7 +48,7 @@ const SignupCongrats = () => {
 						MyFitnessPal experts. Plus, a first look at new features!
 					</Text>
 
-					<Button colorScheme="blue" fontSize="18px" mt="20px">
+					<Button colorScheme="blue" fontSize="18px" mt="20px" onClick={()=>navigate("/login")}>
 						EXPLORE MYFITNESSPAL
 					</Button>
 				</Box>

@@ -3,11 +3,14 @@ import React from "react";
 // import SignupNavbar from "../../components/signup/SignupNavbar";
 import "../signup/SignupStyles.css";
 import { FcGoogle } from "react-icons/fc";
+import { useNavigate } from "react-router-dom";
+import NavbarPremium from "../premium/NavbarPremium";
 
 const Login = () => {
+	const navigate = useNavigate();
 	return (
 		<>
-			{/* <SignupNavbar /> */}
+			<NavbarPremium />
 			<Box className="signupWrapper">
 				<Box className="insideBox" h="fit-content" p="20px">
 					<Box>
@@ -16,14 +19,21 @@ const Login = () => {
 						</Heading>
 						<Input placeholder="Email Address" h="50px" my="20px" isRequired />
 						<Input placeholder="Password" h="50px" isRequired />
-						<Text color="blue" mb="10px" as="u" align="left" mt="5px">
+						<Text
+							color="blue"
+							mb="10px"
+							as="u"
+							align="left"
+							mt="5px"
+							style={{ cursor: "pointer" }}
+						>
 							Forgot Password?
 						</Text>
 					</Box>
 
 					<Box mt="40px">
 						<Button colorScheme="blue" w="350px" fontSize="18px" mt="10px">
-							LOGIN
+							LOG IN
 						</Button>
 						<Text color="#A0A0A0" mb="10px" align="center">
 							or
@@ -33,14 +43,20 @@ const Login = () => {
 							colorScheme="blue"
 							variant="outline"
 							w="350px"
-              mb="20px"
+							mb="20px"
 						>
 							CONTINUE WITH GOOGLE
 						</Button>
 					</Box>
 				</Box>
 				<Text color="#A0A0A0" my="10px" align="center" fontSize="sm">
-					Not a member? <span style={{ color: "blue" }}>Sign Up now</span>
+					Not a member?{" "}
+					<span
+						style={{ color: "blue", cursor: "pointer" }}
+						onClick={() => navigate("/signup")}
+					>
+						Sign Up now
+					</span>
 				</Text>
 			</Box>
 		</>

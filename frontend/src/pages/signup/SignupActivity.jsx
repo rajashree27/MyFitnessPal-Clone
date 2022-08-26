@@ -2,8 +2,14 @@ import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import React from "react";
 import SignupNavbar from "../../components/signup/SignupNavbar";
 import "./SignupStyles.css";
+import { useNavigate } from "react-router-dom";
 
 const SignupActivity = () => {
+	const navigate = useNavigate();
+
+	const handleClick = () => {
+		navigate("/signupPleaseSelect");
+	};
 	return (
 		<>
 			<SignupNavbar />
@@ -22,6 +28,7 @@ const SignupActivity = () => {
 						w="400px"
 						my="20px"
 						h="fit-content"
+						onClick={handleClick}
 					>
 						<Box p="5px" textAlign="left" w="100%">
 							<Text fontSize="18px" color="	#606060">
@@ -42,6 +49,7 @@ const SignupActivity = () => {
 						w="400px"
 						mb="20px"
 						h="fit-content"
+						onClick={handleClick}
 					>
 						<Box p="5px" textAlign="left">
 							<Text fontSize="18px" color="	#606060">
@@ -62,6 +70,7 @@ const SignupActivity = () => {
 						w="400px"
 						mb="20px"
 						h="fit-content"
+						onClick={handleClick}
 					>
 						<Box p="5px" textAlign="left">
 							<Text fontSize="18px" color="	#606060">
@@ -82,6 +91,7 @@ const SignupActivity = () => {
 						w="400px"
 						mb="20px"
 						h="fit-content"
+						onClick={handleClick}
 					>
 						<Box p="5px" textAlign="left">
 							<Text fontSize="18px" color="	#606060">
@@ -95,7 +105,6 @@ const SignupActivity = () => {
 							</Text>
 						</Box>
 					</Button>
-
 				</Box>
 			</Box>
 		</>
