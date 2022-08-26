@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styled from "styled-components"
 import { Link, NavLink } from "react-router-dom";
+import MyHome from '../pages/MyHome';
 
 const MainDiv = styled.div`
 height: 86px;
@@ -11,7 +12,6 @@ box-sizing: border-box;
 // border: 1px solid black;
 `
 const UpperDiv = styled.div`
-border:1px solid red;
 height: 43px;
 width: 100%;
 display: flex;
@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <MainDiv>
         <UpperDiv>
-            <Link style={{textDecoration:"none",color: navLinks==="myHome"? "black":"white"}} to="" onClick={()=>setNavLinks("myHome")}>MY HOME</Link>
+            <Link style={{textDecoration:"none",color: navLinks==="myHome"? "black":"white"}} to="myHome"  onClick={()=>setNavLinks("myHome")}>MY HOME</Link>
             <Link style={{textDecoration:"none",color: navLinks==="food"? "black":"white"}} to="food" onClick={()=>setNavLinks("food")}>FOOD</Link>
             <Link style={{textDecoration:"none",color: navLinks==="exercise"? "black":"white"}} to="exercise" onClick={()=>setNavLinks("exercise")}>EXERCISE</Link>
             <Link style={{textDecoration:"none",color: navLinks==="reports"? "black":"white"}} to="reports" onClick={()=>setNavLinks("reports")}>REPORTS</Link>

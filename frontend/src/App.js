@@ -1,11 +1,8 @@
 
-
-  
-
-import React from "react"
 import "./App.css";
 import Header from "./components/Header";
 import Headertop from "./components/Headertop";
+import AppPage from "./pages/AppPage";
 // import Footer from "./components/Footer/Footer";
 
 
@@ -22,17 +19,6 @@ function App() {
       {/* <Navbar />
       <Myhome/> */}
       {/* <Footer /> */}
-      {/* <Headertop/>
-      <Header/>
-      <MyHome/>  */}
-      <MainRoutes />
-
-      <Routes>
-     <Route path="/recipes" element={<Recipes_Page />} />
-     </Routes>
-   
-   <BlogHomePage/>
-
     </div>
   );
 }
