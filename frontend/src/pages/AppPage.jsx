@@ -326,8 +326,8 @@ const AppPage = () => {
           </div>
         </div>
         <div className={Styles.d5}>
-        <GrFormSearch style={{ paddingTop: "5px", fontSize: "18px" }} />
-        <input
+          <GrFormSearch style={{ paddingTop: "5px", fontSize: "18px" }} />
+          <input
             className={Styles.input}
             type="text"
             placeholder="Search"
