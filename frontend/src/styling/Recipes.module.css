@@ -1,0 +1,122 @@
+.recipesContainer{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 90px;
+    padding: 9% 9%;
+    opacity: 0.9;
+    background-image: url("https://cdn8.dissolve.com/p/D2115_212_626/D2115_212_626_1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.recipesSearchHeading{
+ color: white;
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 1.5%;
+ opacity: 100%;
+}
+.recipesSearchBarMainDiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.recipesSearchBarDiv{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    height: 35px;
+    width: 400px;
+    background-color: whitesmoke;
+    cursor: text;
+    border: white;
+}
+
+.recipesSearchIcon{
+    height: 100%;
+    size: 100%;
+    color:#0066EE ;
+}
+.recipesSearchInput{
+    height: 34px;
+    width: 360px;
+    border-radius: 25px;
+    border: none;
+    border-color: transparent;
+    text-align: center;
+    outline-width: 0;
+    background-color: whitesmoke;
+}
+.RecipesMapCantainer{
+    display: flex;
+    padding: 0% 6% 2% 6%;
+    gap: 2%;
+}
+.socialMediaIconFB{
+    color: #062d5f;
+    font-size: 21px;
+}
+.socialMediaIconTwitter{
+    color: #0471ffe3;
+    font-size: 21px;
+}
+.socialMediaIconInsta{
+    color: palevioletred;
+    font-size: 21px;
+}
+.socialMediaIconPin{
+    color: red;
+    font-size: 21px;
+}
+.RecipeRatingStars{
+    color: #0066EE ;
+    margin-top: 1%;
+}
+
+.RecipeRatingImageForBorder{
+    padding: 1.5px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+}
+.RecipeRatingImageForBorder>img{
+    height: 50%;
+    /* width: 70%; */
+}
+.RecipeSocialMediaBox{
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+}
+.RecipeLogit{
+    background: #0066EE ;
+    text-align: center;
+    align-content: center;
+    color: white;
+    padding: 1.5% 1.5%;
+    font-weight: bold;
+}
+.RecipeSocialMediaIcons{
+    display: flex;
+    gap: 7.5%;
+    padding: 1.5%;
+}
+.RecipeHeading{
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+.RecipeHeading:hover{
+    color: #0066EE;
+}
+.RecipeBy{
+    color: grey;
+    font-size: 12px;
+    margin-top: 1%;
+}
+.RecipeDescription{
+    margin-top: 1%;
+}

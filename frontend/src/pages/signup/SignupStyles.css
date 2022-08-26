@@ -1,0 +1,29 @@
+.signupWrapper {
+	height: calc(100vh - 65px);
+	background-image: url("../../assets/bg-signup.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.insideBox {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	border-radius: 20px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.tallSubBox{
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
