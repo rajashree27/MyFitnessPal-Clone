@@ -12,6 +12,7 @@ import MainRoutes from "./routes/MainRoutes";
 import { Routes, Route } from "react-router-dom";
 import  BlogHomePage from "./pages/BlogHomePage.jsx"
 import Recipes_Page from "./pages/Recipes_Page";
+import AllRoutes from "./AllRoutes";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       {/* <Navbar />
       <Myhome/> */}
       {/* <Footer /> */}
+      <AllRoutes />
     </div>
   );
 }

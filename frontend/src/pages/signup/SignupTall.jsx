@@ -11,8 +11,10 @@ import {
 import React from "react";
 import SignupNavbar from "../../components/signup/SignupNavbar";
 import "./SignupStyles.css";
+import { useNavigate } from "react-router-dom";
 
 const SignupTall = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<SignupNavbar />
@@ -62,10 +64,11 @@ const SignupTall = () => {
 					</Box>
 
 					<Flex gap="20px">
-						<Button colorScheme="blue" variant="outline" w="150px" fontSize="18px">
+						<Button colorScheme="blue" variant="outline" w="150px" fontSize="18px"
+						onClick={() => navigate("/signupActivity")}>
 							BACK
 						</Button>
-						<Button colorScheme="blue" w="150px" fontSize="18px">
+						<Button colorScheme="blue" w="150px" fontSize="18px" onClick={() => navigate("/signupWeekly")}>
 							NEXT
 						</Button>
 					</Flex>
