@@ -4,10 +4,8 @@ import { useNavigate, Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 export const Headertop = () => {
- 
   const navigate = useNavigate();
   const data = JSON.parse(localStorage.getItem(""));
- 
 
   return (
     <div>
@@ -20,15 +18,14 @@ export const Headertop = () => {
           {data ? (
             <h4 className={style.headloging}>Hi, {data.name}</h4>
           ) : (
-            <h4>.</h4>
+            <h4>Hi,username</h4>
           )}
           <h5>Help</h5>|<h5>Settings</h5>|
           <h5
             onClick={() => {
               localStorage.removeItem("");
-           
-             navigate("/login")
 
+              navigate("/login");
             }}
           >
             Log Out
@@ -50,4 +47,4 @@ export const Headertop = () => {
   );
 };
 
-export default Headertop
+export default Headertop;
