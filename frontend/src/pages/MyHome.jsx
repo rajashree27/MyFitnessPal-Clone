@@ -5,6 +5,7 @@ import { BsFillBagCheckFill } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
 import Headertop from "../components/Headertop";
 import Header from "../components/Header";
+import Footer from "../components/Footer/Footer";
 // import { BsFillBagCheckFill } from 'react-icons/bs';
 
 const MainDiv = styled.div`
@@ -661,6 +662,7 @@ const MyHome = () => {
         />
       </Adv2>
     </MainDiv>
+    <Footer />
     </>
   );
 };

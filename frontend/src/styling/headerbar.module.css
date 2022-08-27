@@ -1,34 +1,34 @@
-.headcaring{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15%;
-  
+.headcaring {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 15%;
+    cursor: pointer;
 }
-.headcaring>img{
-    width: 200px;
-    height: 30px;
+.headcaring > img {
+	width: 200px;
+	height: 30px;
 }
-.lscaring{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    
+.lscaring {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
 }
-.lscaring>h5{
-    text-decoration: none;
-    color: rgb(0,102,238);
+.lscaring > h5 {
+	text-decoration: none;
+	color: rgb(0, 102, 238);
 }
-.lscaring>h4{
-    text-decoration: none;
-    color: rgb(23, 109, 228);
+.lscaring > h4 {
+	text-decoration: none;
+	color: rgb(23, 109, 228);
 }
 h5:hover {
-    color:black;
-    cursor:pointer;
+	color: black;
+	cursor: pointer;
 }
-.headloging{
-    padding: 0px 10px;
-    border-right: 1px solid rgb(218, 215, 215);
+.headloging {
+	padding: 0px 10px;
+	border-right: 1px solid rgb(218, 215, 215);
+	font-weight: bold;
 }

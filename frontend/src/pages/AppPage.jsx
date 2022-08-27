@@ -3,9 +3,14 @@ import { Sliders } from "./Slider";
 import Styles from "../styling/AppPage.module.css";
 import { GrFormSearch } from "react-icons/gr";
 import { BiSearch } from "react-icons/bi";
+import Header from "../components/Header";
+import Headertop from "../components/Headertop";
+import Footer from "../components/Footer/Footer";
 const AppPage = () => {
   return (
     <>
+    <Headertop />
+    <Header />
       <div className={Styles.main}>
         <div>
           <div>
@@ -104,6 +109,81 @@ Strava
                   </button>
                 </div>
               </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_180_1_10_0_3668.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>Fitbit</p>
+                  <p className={Styles.d4_4}>Activity Trackers</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_180_1_10_0_3668.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>Fitbit</p>
+                  <p className={Styles.d4_4}>Activity Trackers</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_180_1_10_0_3668.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>Fitbit</p>
+                  <p className={Styles.d4_4}>Activity Trackers</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>
+Strava
+</p>
+                  <p className={Styles.d4_4}>Fitness Apps</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_229_1_10_0_84885.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>
+Strava
+</p>
+                  <p className={Styles.d4_4}>Fitness Apps</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
@@ -358,6 +438,7 @@ Strava
           <div className={Styles.d8}>Exercise Equipment</div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
