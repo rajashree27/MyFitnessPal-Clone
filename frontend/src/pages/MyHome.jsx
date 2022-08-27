@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
+import Headertop from "../components/Headertop";
+import Header from "../components/Header";
 // import { BsFillBagCheckFill } from 'react-icons/bs';
 
 const MainDiv = styled.div`
@@ -468,6 +470,9 @@ const MyHome = () => {
   // localStorage.getItem("");
 
   return (
+    <>
+    <Headertop/>
+    <Header/>
     <MainDiv>
       <AdvDiv>
         <img src="https://bit.ly/3cfFFG2" alt="" />
@@ -656,6 +661,7 @@ const MyHome = () => {
         />
       </Adv2>
     </MainDiv>
+    </>
   );
 };
 
