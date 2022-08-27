@@ -12,7 +12,7 @@ import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
 import Home from './pages/Home'
-import SignupPleaseSelect from './pages/signup/SignupPleaseSelect'
+import BlogHomePage from './pages/BlogHomePage'
 
 const AllRoutes = () => {
   return (
@@ -21,7 +21,6 @@ const AllRoutes = () => {
         <Route path='/signup' element={<SignupWelcome />} />
         <Route path='/signupWeightGoal' element={<SignupWeightGoal />} />
         <Route path='/signupActivity' element={<SignupActivity />} />
-        <Route path='/signupPleaseSelect' element={<SignupPleaseSelect />} />
         <Route path='/signupTall' element={<SignupTall />} />
         <Route path='/signupWeekly' element={<SignupWeekly />} />
         <Route path='/signupCreateAccount' element={<SignupCreateAcc />} />
@@ -30,6 +29,11 @@ const AllRoutes = () => {
 
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
+        
+        
+        <Route path='/blog' element={<BlogHomePage />} />
+
+
 
 
 

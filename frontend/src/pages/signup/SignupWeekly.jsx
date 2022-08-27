@@ -26,6 +26,7 @@ const SignupWeekly = () => {
 					</Text>
 					<Button
 						colorScheme="blue"
+						color="#0066EE"
 						variant="outline"
 						w="370px"
 						my="20px"
@@ -35,6 +36,7 @@ const SignupWeekly = () => {
 					</Button>
 					<Button
 						colorScheme="blue"
+						color="#0066EE"
 						variant="outline"
 						w="370px"
 						mb="20px"
@@ -44,6 +46,7 @@ const SignupWeekly = () => {
 					</Button>
 					<Button
 						colorScheme="blue"
+						color="#0066EE"
 						variant="outline"
 						w="370px"
 						mb="20px"
@@ -53,6 +56,7 @@ const SignupWeekly = () => {
 					</Button>
 					<Button
 						colorScheme="blue"
+						color="#0066EE"
 						variant="outline"
 						w="370px"
 						onClick={handleClick}
