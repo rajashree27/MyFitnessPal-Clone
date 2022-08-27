@@ -11,6 +11,7 @@ import SignupUsername from './pages/signup/SignupUsername'
 import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
+import RecipesPage from './pages/RecipesPage'
 
 const AllRoutes = () => {
   return (
@@ -27,6 +28,7 @@ const AllRoutes = () => {
 
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
+        <Route path="/recipes" element={<RecipesPage />} />
 
 
 

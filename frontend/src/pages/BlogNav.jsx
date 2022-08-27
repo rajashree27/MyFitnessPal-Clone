@@ -4,11 +4,12 @@ import logo from "../Images/fitnesslogo.png"
 import * as Icons from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-const Blog_Nav = () => {
+
+const BlogNav = () => {
   return (
     <div>
         <div className={style.homeicondiv}>
-        <Link to="/" ><Icons.FaHome className={style.homeicon} /></Link>  {">"}  Blog
+        <Link to="/" ><Icons.FaHome className={style.homeicon} /></Link>  
         </div>
         <div style={{textAlign:"center"}}>
         <img src={logo} alt="" />
@@ -35,4 +36,4 @@ const Blog_Nav = () => {
   )
 }
 
-export default Blog_Nav
+export default BlogNav

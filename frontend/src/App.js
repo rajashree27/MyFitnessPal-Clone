@@ -10,30 +10,17 @@ import Headertop from "./components/Headertop";
 
 
 import MyHome from "./pages/MyHome";
-import MainRoutes from "./routes/MainRoutes";
+// import MainRoutes from "./routes/MainRoutes";
 
-import { Routes, Route } from "react-router-dom";
-import  BlogHomePage from "./pages/BlogHomePage.jsx"
-import Recipes_Page from "./pages/Recipes_Page";
+// import { Routes, Route } from "react-router-dom";
+// import  BlogHomePage from "./pages/BlogHomePage.jsx"
+// import RecipesPage from "./pages/RecipesPage";
+// import BlogNav from "./pages/BlogNav"
+import AllRoutes from "./AllRoutes";
 
 function App() {
   return (
-    <div>
-      {/* <Navbar />
-      <Myhome/> */}
-      {/* <Footer /> */}
-      {/* <Headertop/>
-      <Header/>
-      <MyHome/>  */}
-      <MainRoutes />
-
-      <Routes>
-     <Route path="/recipes" element={<Recipes_Page />} />
-     </Routes>
-   
-   <BlogHomePage/>
-
-    </div>
+   <AllRoutes/>
   );
 }
 
