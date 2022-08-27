@@ -11,9 +11,17 @@ import SignupUsername from './pages/signup/SignupUsername'
 import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
+import AppPage from './pages/AppPage'
+import MyHome from './pages/MyHome'
+import Header from './components/Header'
 
 const AllRoutes = () => {
   return (
+    <>
+    
+  
+    
+    
     <Routes>
         <Route path='/' element={<SignupWelcome />} />
         <Route path='/signupWeightGoal' element={<SignupWeightGoal />} />
@@ -27,10 +35,10 @@ const AllRoutes = () => {
 
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
-
-
-
+        <Route path="/myHome" element={<MyHome />} />
+        <Route path="/apps" element={<AppPage />} />
     </Routes>
+    </>
   )
 }
 

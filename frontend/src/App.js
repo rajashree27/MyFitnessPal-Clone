@@ -10,16 +10,17 @@ import MainRoutes from "./routes/MainRoutes";
 import { Routes, Route } from "react-router-dom";
 import BlogHomePage from "./pages/BlogHomePage.jsx";
 import Recipes_Page from "./pages/Recipes_Page";
+import AllRoutes from "./AllRoutes";
 
 function App() {
   return (
     <div>
-      <Headertop />
-      <Header />
-      <Routes>
+      
+      <AllRoutes/>
+      {/* <Routes>
         <Route path="myHome" element={<MyHome />} />
         <Route path="apps" element={<AppPage />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
