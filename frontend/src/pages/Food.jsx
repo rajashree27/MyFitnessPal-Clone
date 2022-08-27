@@ -8,6 +8,7 @@ import DinnerCell from "../components/DinnerCell";
 import LunchCell from "../components/LunchCell";
 import SnackCell from "../components/SnackCell";
 import TotalCal from "../components/TotalCal";
+import NavbarPremium from "./premium/NavbarPremium";
 
 const Food = () => {
   const [todayDate, setTodayDate] = useState("");
@@ -25,6 +26,8 @@ const Food = () => {
     date = tomorrow.toDateString();
   };
   return (
+    <>
+    <NavbarPremium />
     <Box
       className="main"
       w={{ base: "100%", md: "80%", lg: "65%" }}
@@ -227,6 +230,7 @@ const Food = () => {
         </Box>
       </Flex>
     </Box>
+    </>
   );
 };
 

@@ -2,6 +2,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+
 import { deleteDinner, getBreakfast, getDinner } from "../redux/app/action";
 
 const DinnerCell = () => {
@@ -33,6 +34,7 @@ const DinnerCell = () => {
   }, [dispatch]);
   return (
     <>
+    
       {dinner.map((ele) => (
         <Flex fontSize={"14px"} mt="1">
           <Box w={"35%"} backgroundColor={"#f6f6f6"} p={1}>

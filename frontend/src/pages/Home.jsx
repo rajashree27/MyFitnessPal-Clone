@@ -27,6 +27,7 @@ import eric from "../assests/Eric.PNG";
 import lori from "../assests/Lori.PNG";
 import NavbarPremium from "./premium/NavbarPremium";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -311,6 +312,7 @@ const Home = () => {
           </Flex>
         </Box>
       </Box>
+      <Footer />
     </>
   );
 };

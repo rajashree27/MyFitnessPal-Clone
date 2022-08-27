@@ -33,6 +33,7 @@ const SnackCell = () => {
   }, [dispatch]);
   return (
     <>
+    
       {snack.map((ele) => (
         <Flex fontSize={"14px"} mt="1">
           <Box w={"35%"} backgroundColor={"#f6f6f6"} p={1}>
