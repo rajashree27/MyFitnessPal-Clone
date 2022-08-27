@@ -38,20 +38,20 @@ font-size: 14px;
 
 
 const Header = () => {
-    const [navLinks, setNavLinks] = useState("myHome");
+    const [navLinks, setNavLinks] = useState("");
     // console.log(navLinks)
     
   return (
     <MainDiv>
         <UpperDiv>
-            <Link style={{textDecoration:"none",color: navLinks==="myHome"? "black":"white"}} to="myHome"  onClick={()=>setNavLinks("myHome")}>MY HOME</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="food"? "black":"white"}} to="food" onClick={()=>setNavLinks("food")}>FOOD</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="exercise"? "black":"white"}} to="exercise" onClick={()=>setNavLinks("exercise")}>EXERCISE</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="reports"? "black":"white"}} to="reports" onClick={()=>setNavLinks("reports")}>REPORTS</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="apps"? "black":"white"}} to="apps" onClick={()=>setNavLinks("apps")}>APPS</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="community"? "black":"white"}} to="community" onClick={()=>setNavLinks("community")}>COMMUNITY</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="blog"? "black":"white"}} to="blog" onClick={()=>setNavLinks("blog")}>BLOG</Link>
-            <Link style={{textDecoration:"none",color: navLinks==="premium"? "black":"white"}} to="premium" onClick={()=>setNavLinks("premium")}>PREMIUM</Link>
+             <p  ><Link style={{textDecoration:"none",color: navLinks==="myHome"? "black":"white"}} onClick={()=>setNavLinks("myHome")} to="/myHome" >MY HOME</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="foods"? "black":"white"}} onClick={()=>setNavLinks("foods")}><Link to="/foods" >FOOD</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="exercise"? "black":"white"}} onClick={()=>setNavLinks("exercise")}><Link to="/exercise" >EXERCISE</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="reports"? "black":"white"}} onClick={()=>setNavLinks("reports")}><Link to="/reports" >REPORTS</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="apps"? "black":"white"}} onClick={()=>setNavLinks("apps")}><Link to="/apps" >APPS</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="community"? "black":"white"}} onClick={()=>setNavLinks("community")}><Link to="/community" >COMMUNITY</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="blog"? "black":"white"}} onClick={()=>setNavLinks("blog")}><Link to="/blog" >BLOG</Link></p>
+             <p style={{textDecoration:"none",color: navLinks==="premium"? "black":"white"}} onClick={()=>setNavLinks("premium")}><Link to="/premium" >PREMIUM</Link></p>
         </UpperDiv>
         <LowerDiv style={{display: navLinks==="myHome"? "flex":"none"}}>
             <NavLink to="" style={{textDecoration:"none",color:"white"}}>Home</NavLink>
@@ -63,7 +63,7 @@ const Header = () => {
             <NavLink to="friends" style={{textDecoration:"none",color:"white"}}>Friends</NavLink>
             <NavLink to="settings" style={{textDecoration:"none",color:"white"}}>Settings</NavLink>
         </LowerDiv>
-        <LowerDiv style={{display: navLinks==="food"? "flex":"none"}}>
+        <LowerDiv style={{display: navLinks==="foods"? "flex":"none"}}>
             <NavLink to="food" style={{textDecoration:"none",color:"white"}}>Food Diary</NavLink>
             <NavLink to="database" style={{textDecoration:"none",color:"white"}}>Database</NavLink>
             <NavLink to="my-foods" style={{textDecoration:"none",color:"white"}}>My Foods</NavLink>

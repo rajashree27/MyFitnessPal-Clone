@@ -37,7 +37,7 @@ const Login = () => {
 
 	useEffect(() => {
 		if (isAuth) {
-			navigate("/premium");
+			navigate("/myHome");
 		}
 	}, [navigate, isAuth]);
 

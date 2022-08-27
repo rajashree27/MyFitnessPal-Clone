@@ -70,7 +70,7 @@ const NavbarPremium = () => {
 				<Box onClick={() => navigate("/")}>ABOUT</Box>
 				<Box onClick={() => navigate("/foods")}>FOOD</Box>
 				<Box onClick={() => navigate("/")}>EXERCISE</Box>
-				<Box>APPS</Box>
+				<Box onClick={() => navigate("/apps")}>APPS</Box>
 				<Box>COMMUNITY</Box>
 				<Box onClick={() => navigate("/blog")}>BLOG</Box>
 				<Box onClick={() => navigate("/premium")}>PREMIUM</Box>

@@ -52,6 +52,10 @@ const AllRoutes = () => {
         <Route path='/lunchSearch' element={<LunchSearch />} />
         <Route path='/dinnerSearch' element={<DinnerSearch />} />
         <Route path='/snackSearch' element={<SnackSearch />} />
+        <Route path='/myHome' element={<MyHome/>} />
+        <Route path='/apps' element={<AppPage />} />
+        {/* <Route path='/exercise' element={<Exercise />} /> */}
+
 
 
     </Routes>

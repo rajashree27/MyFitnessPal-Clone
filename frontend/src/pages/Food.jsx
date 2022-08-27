@@ -5,6 +5,8 @@ import ad1 from "../assests/food-ad1.PNG";
 import ad2 from "../assests/food-ad2.PNG";
 import BreakfastCell from "../components/BreakfastCell";
 import DinnerCell from "../components/DinnerCell";
+import Header from "../components/Header";
+import Headertop from "../components/Headertop";
 import LunchCell from "../components/LunchCell";
 import SnackCell from "../components/SnackCell";
 import TotalCal from "../components/TotalCal";
@@ -27,7 +29,9 @@ const Food = () => {
   };
   return (
     <>
-    <NavbarPremium />
+    <Headertop/>
+    <Header/>
+    {/* <NavbarPremium /> */}
     <Box
       className="main"
       w={{ base: "100%", md: "80%", lg: "65%" }}
