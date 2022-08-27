@@ -23,6 +23,7 @@ import BreakfastSearch from './pages/BreakfastSearch'
 import LunchSearch from './pages/LunchSearch'
 import DinnerSearch from './pages/DinnerSearch'
 import SnackSearch from './pages/SnackSearch'
+import Exercise from './pages/Exercise/Exercise'
 
 
 
@@ -54,7 +55,7 @@ const AllRoutes = () => {
         <Route path='/snackSearch' element={<SnackSearch />} />
         <Route path='/myHome' element={<MyHome/>} />
         <Route path='/apps' element={<AppPage />} />
-        {/* <Route path='/exercise' element={<Exercise />} /> */}
+        <Route path='/exercise' element={<Exercise/>} />
 
 
 
