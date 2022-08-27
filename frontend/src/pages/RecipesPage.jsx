@@ -2,6 +2,7 @@ import React from 'react'
 
 import BlogSearchBar from "./BlogSearchBar" 
 import BlogNav from "./BlogNav"
+import Footer from '../components/Footer/Footer'
 const RecipesPage = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const RecipesPage = () => {
     <div>
       <BlogSearchBar/>
     </div>
+    <Footer />
     </>
   )
 }
