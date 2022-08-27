@@ -13,6 +13,9 @@ import { Routes, Route } from "react-router-dom";
 import  BlogHomePage from "./pages/BlogHomePage.jsx"
 import Recipes_Page from "./pages/Recipes_Page";
 import AllRoutes from "./AllRoutes";
+import Exercise from "./pages/Exercise/Exercise";
+import Cardio from "./pages/Exercise/Cardio";
+
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
       {/* <Navbar />
       <Myhome/> */}
       {/* <Footer /> */}
-      <AllRoutes />
+      {/* <AllRoutes /> */}
+      <Exercise/>
+      {/* <Cardio/> */}
+      
     </div>
   );
 }
