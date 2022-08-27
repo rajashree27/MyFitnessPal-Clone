@@ -10,6 +10,7 @@ import SignupUsername from './pages/signup/SignupUsername'
 import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
+import RecipesPage from './pages/RecipesPage'
 import AppPage from './pages/AppPage'
 import MyHome from './pages/MyHome'
 import Header from './components/Header'
@@ -22,6 +23,7 @@ import BreakfastSearch from './pages/BreakfastSearch'
 import LunchSearch from './pages/LunchSearch'
 import DinnerSearch from './pages/DinnerSearch'
 import SnackSearch from './pages/SnackSearch'
+
 
 
 const AllRoutes = () => {
@@ -44,11 +46,13 @@ const AllRoutes = () => {
         <Route path='/foods' element={<Food />} />
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
+        <Route path="/recipes" element={<RecipesPage />} />
         <Route path='/blog' element={<BlogHomePage />} />
         <Route path='/breakfastSearch' element={<BreakfastSearch />} />
         <Route path='/lunchSearch' element={<LunchSearch />} />
         <Route path='/dinnerSearch' element={<DinnerSearch />} />
         <Route path='/snackSearch' element={<SnackSearch />} />
+
 
     </Routes>
     </>
