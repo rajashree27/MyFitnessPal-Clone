@@ -8,7 +8,7 @@ breakfastRouter.post("/create", async (req, res) => {
   const data = req.body;
   const newBreakfast = new BreakfastModel(data);
   await newBreakfast.save();
-  return res.status(200).send(newBreakfast);
+  return res.status(200).send({message: "Breakfast added to DB"});
 });
 
 breakfastRouter.get("/", async (req, res) => {
