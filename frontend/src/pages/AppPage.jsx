@@ -23,7 +23,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -35,7 +37,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Garmin Connect</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3QXrsN2" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -45,9 +49,13 @@ const AppPage = () => {
                   alt=""
                 />
                 <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <p className={Styles.d4_3}>
+MapMyFitness
+</p>
+                  <p className={Styles.d4_4}>Fitness Apps</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -57,9 +65,13 @@ const AppPage = () => {
                   alt=""
                 />
                 <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <p className={Styles.d4_3}>
+MapMyWalk
+</p>
+                  <p className={Styles.d4_4}>Fitness Apps</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -69,9 +81,13 @@ const AppPage = () => {
                   alt=""
                 />
                 <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <p className={Styles.d4_3}>
+Strava
+</p>
+                  <p className={Styles.d4_4}>Fitness Apps</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -83,7 +99,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -95,7 +113,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -112,7 +132,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -124,7 +146,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Garmin Connect</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -136,7 +160,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -148,7 +174,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -160,7 +188,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -172,7 +202,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -184,7 +216,9 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
@@ -196,143 +230,123 @@ const AppPage = () => {
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_139_1_10_0_10915.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_2_1_10_0_87968.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_331_1_10_0_52964.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
-                </div>
-              </div>
-
-              <div className={Styles.d4}>
-                <img
-                  className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
-                  alt=""
-                />
-                <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
-                </div>
-              </div>
-              <div className={Styles.d4}>
-                <img
-                  className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
-                  alt=""
-                />
-                <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
-                </div>
-              </div>
-              <div className={Styles.d4}>
-                <img
-                  className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
-                  alt=""
-                />
-                <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
-                </div>
-              </div>
-              <div className={Styles.d4}>
-                <img
-                  className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
-                  alt=""
-                />
-                <div className={Styles.d4_2}>
-                  <p className={Styles.d4_3}>Fitbit</p>
-                  <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
 
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_86_1_10_0_19952.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_306_1_10_0_49537.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
-
               <div className={Styles.d4}>
                 <img
                   className={Styles.d4_1}
-                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_392_1_10_0_97000.png"
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_282_1_10_0_81543.png"
                   alt=""
                 />
                 <div className={Styles.d4_2}>
                   <p className={Styles.d4_3}>Fitbit</p>
                   <p className={Styles.d4_4}>Activity Trackers</p>
-                  <button className={Styles.d4_5}>GET</button>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
+                </div>
+              </div>
+              <div className={Styles.d4}>
+                <img
+                  className={Styles.d4_1}
+                  src="https://dakd0cjsv8wfa.cloudfront.net/images/api_clients/0/api_clients_130_1_10_0_23647.png"
+                  alt=""
+                />
+                <div className={Styles.d4_2}>
+                  <p className={Styles.d4_3}>Fitbit</p>
+                  <p className={Styles.d4_4}>Activity Trackers</p>
+                  <button className={Styles.d4_5}>
+                    <a className={Styles.a} href="https://bit.ly/3ARDv9a" target="_blank">GET</a>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className={Styles.d5}>
-          <GrFormSearch style={{ paddingTop: "5px", fontSize: "18px" }} />
-          <input
-            className={Styles.input}
-            type="text"
-            placeholder="Search"
-            spellcheck="false"
-          />
+          <div className={Styles.d6}>
+            <GrFormSearch style={{ fontSize: "34px" }} />
+            <input
+              className={Styles.input}
+              type="text"
+              placeholder="Search"
+              spellcheck="false"
+            />
+          </div>
           <div className={Styles.cg}>Categories</div>
           <div className={Styles.d8}> All</div>
           <div className={Styles.d8}>Activity Trackers</div>

@@ -68,7 +68,7 @@ const SignupTall = () => {
 						onClick={() => navigate("/signupActivity")}>
 							BACK
 						</Button>
-						<Button colorScheme="blue" w="150px" fontSize="18px" onClick={() => navigate("/signupWeekly")}>
+						<Button bg="#0066EE" color="white" w="150px" fontSize="18px" onClick={() => navigate("/signupWeekly")}>
 							NEXT
 						</Button>
 					</Flex>

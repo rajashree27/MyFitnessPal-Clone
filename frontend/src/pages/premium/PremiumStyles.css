@@ -104,6 +104,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
+	text-align: center;
 }
 
 .gridOptions img {
@@ -125,6 +126,7 @@
 	background-repeat: no-repeat;
 	background-size: 400px;
 	background-position: left top, right bottom;
+	text-align: center;
 }
 
 .yourGoalsSection img {
@@ -143,6 +145,7 @@
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: right, left;
+	text-align: center;
 	/* height: 100vh; */
 }
 
@@ -188,6 +191,7 @@
 	background-image: url("../../assets/bg-signup.webp");
 	background-repeat: repeat;
 	background-size: cover;
+	text-align: center;
 }
 
 .premiumYellowBoxFAQ {
@@ -209,6 +213,7 @@
 	background-size: contain;
 	background-position: right, left bottom;
 	height: 100vh;
+	text-align: center;
 }
 
 .annualMonthlyBoxes {

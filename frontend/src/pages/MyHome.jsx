@@ -91,7 +91,7 @@ const LeftSummaryUP = styled.div`
   span {
     font-size: 13px;
     color: blue;
-    ${'' /* margin-left: 1px; */}
+    ${"" /* margin-left: 1px; */}
     position:relative;
   }
 `;
@@ -495,27 +495,15 @@ const MyHome = () => {
                 <p>
                   Calories Remaining <span>Change</span>
                 </p>
-                <p>2110</p>
+                <p>1500</p>
               </div>
               <div>
-                <button onClick={() => navigate("exercise")}>
-                  Add Exercise
-                </button>
-                <button onClick={() => navigate("food")}>Add Food</button>
-                {/* <input
-                  type="text"
-                  placeholder="Add Exercise"
-                  onClick={() => navigate("exercise")}
-                /> */}
-                {/* <input
-                  type="text"
-                  placeholder="Add Food"
-                  onClick={() => navigate("food")}
-                /> */}
+                <button onClick={() => navigate("/exercise")}>Add Exercise</button>
+                <button onClick={() => navigate("/foods")}>Add Food</button>
               </div>
               <div>
                 <div>
-                  <span>2110</span>
+                  <span>1500</span>
                   <h5>GOAL</h5>
                 </div>
                 <div>

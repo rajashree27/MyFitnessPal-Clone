@@ -38,6 +38,7 @@ const SignupUsername = () => {
 					<Flex gap="20px" mt="100px">
 						<Button
 							colorScheme="blue"
+							color="#0066EE"
 							variant="outline"
 							w="150px"
 							fontSize="18px"
@@ -46,7 +47,7 @@ const SignupUsername = () => {
 							BACK
 						</Button>
 						<Button
-							colorScheme="blue"
+							bg="#0066EE" color="white"
 							w="150px"
 							fontSize="18px"
 							onClick={handleUsernameClick}
