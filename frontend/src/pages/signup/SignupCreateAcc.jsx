@@ -45,7 +45,7 @@ const SignupCreateAcc = () => {
 	const { isReg } = useSelector((state) => state.register);
   
    const googleAuth = () => {
-    window.open(`${process.env.REACT_APP_API_URL}/google/callback`, "_self");
+    window.open(`https://smooth-flavor-1645.herokuapp.com/google/callback`, "_self");
   };
 
 	useEffect(() => {

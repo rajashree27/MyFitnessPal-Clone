@@ -6,7 +6,9 @@ import YourGoalsSection from "./YourGoalsSection";
 import VictoryStories from "./VictoryStories";
 import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
 import GoPremium from "./GoPremium";
-import NavbarPremium from "../../components/premium/NavbarPremium";
+// import NavbarPremium from "../../components/premium/NavbarPremium";
+import NavbarPremium from "./NavbarPremium";
+import Footer from "../../components/Footer/Footer";
 
 const Premium = () => {
 	return (
@@ -18,6 +20,7 @@ const Premium = () => {
 			<VictoryStories />
 			<FrequentlyAskedQuestions />
 			<GoPremium />
+			<Footer />
 		</>
 	);
 };
