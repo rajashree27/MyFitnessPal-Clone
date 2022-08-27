@@ -9,12 +9,13 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "https://smooth-flavor-1645.herokuapp.com/google/callback",
+      callbackURL: "http://localhost:8080/google/callback",
       scope: ["profile", "email"],
       passReqToCallback: true,
     },
     async function (request, accessToken, refreshToken, profile, done) {
       const user = await UserModel.findOne({ email: profile.email });
+      console.log(profile)
       if (!user) {
         const newUser = new UserModel({
           username: profile.displayName,

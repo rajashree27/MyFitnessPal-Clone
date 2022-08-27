@@ -11,7 +11,7 @@ const NavbarPremium = () => {
 
   const getUser = async () => {
     try {
-      const url = `${process.env.REACT_APP_API_URL}/login/success`;
+      const url = `https://smooth-flavor-1645.herokuapp.com/login/success`;
       const { data } = await axios.get(url, { withCredentials: true });
       setUser(data.user._json);
     } catch (err) {
@@ -56,7 +56,6 @@ const NavbarPremium = () => {
             <Button
               variant="ghost"
               color="#0066EE"
-              onClick={() => navigate("/login")}
             >
               {user.given_name}
             </Button>

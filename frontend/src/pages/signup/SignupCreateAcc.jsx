@@ -90,7 +90,7 @@ const SignupCreateAcc = () => {
               colorScheme="blue"
               variant="outline"
               w="350px"
-			  onClick={googleAuth}
+              onClick={googleAuth}
             >
               CONTINUE WITH GOOGLE
             </Button>
