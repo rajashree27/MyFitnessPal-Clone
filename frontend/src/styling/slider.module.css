@@ -1,0 +1,94 @@
+.bgblue {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 1px solid rgb(202, 200, 200);
+	background: rgb(0, 102, 238);
+  }
+  .bggray {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 1px solid rgb(204, 203, 203);
+	background: white;
+  }
+  .sldhp {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 30px;
+  }
+  .sldhp > h1 {
+	font-size: 45px;
+	font-weight: 800;
+	margin-bottom: 20px;
+  }
+  .sldhp > p {
+	font-size: 20px;
+  }
+  .sldcar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+	gap: 10px;
+	margin-top: 30px;
+  }
+  .sldcar > i {
+	font-size: 30px;
+	color: gray;
+  }
+  .sldcar > i:hover{
+	  cursor: pointer;
+  }
+  .slider {
+	display: flex;
+	padding: 20px;
+	gap: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+   
+  }
+  .slddots{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  padding: 20px;
+	  gap: 5px;
+  }
+  .sldbold{
+	  margin-top: 0px;
+	  font-weight: 500;
+  }
+  .sldtxt{
+	  font-size: 20px;
+  }
+  .sldnamediv{
+	  text-align: end;
+	  padding: 10px;
+  }
+  .sldnamediv>p{
+	  font-size: 20px;
+	  font-weight: 500;
+  }
+  .rightofsld{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-around;
+	  padding: 0px 10px;
+	  background-image: url('https://www.nicepng.com/png/detail/386-3866968_large-quotation-marks.png');
+	  background-color: rgba(255, 255, 255, 0.26);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+  }
+  
+  
+  @media all and (min-width:401px) and (max-width:720px) {
+	
+	.slider{
+	  flex-direction: column;
+	}
+  
+  
+  }

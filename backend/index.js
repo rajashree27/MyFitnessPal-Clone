@@ -1,8 +1,9 @@
-require('dotenv').config();
+require("dotenv").config();
 const express = require("express");
 const passport = require("passport");
 require("./config/google.oauth");
 const session = require("express-session");
+const cors = require("cors");
 
 const connection = require("./config/db");
 const authRouter = require("./routes/auth");
@@ -12,9 +13,17 @@ const breakfastRouter = require("./routes/breakfast");
 const lunchRouter = require("./routes/lunch");
 const snackRouter = require("./routes/snack");
 const dinnerRouter = require("./routes/dinner");
-const cardioRouter = require("./routes/cardio.Router")
-const strengthRouter=require("./routes/strength.Router")
+const cardioRouter = require("./routes/cardio.Router");
+const strengthRouter = require("./routes/strength.Router");
 const app = express();
+
+app.use(
+  cors({
+    origin: ["http://localhost:3000"],
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true,
+  })
+);
 
 app.get("/", (req, res) => {
   res.send("Deployed to heroku successful");
@@ -42,27 +51,42 @@ app.get(
 app.get(
   "/google/callback",
   passport.authenticate("google", {
-    successRedirect: "http://localhost:3000",
+    successRedirect: process.env.CLIENT_URL,
     failureRedirect: "/auth/google/failure",
-  }),
-  (req, res) => {
-    res.send(req.user.displayName);
-  }
+  })
 );
 
 app.get("/auth/google/failure", (req, res) => {
   res.send("Login Failed");
 });
 
-app.get("/dashboard", (req, res) => {
-  res.send(req.user.displayName);
+app.get("/login/success", (req, res) => {
+  if (req.user) {
+    res.status(200).json({
+      error: false,
+      message: "Successfully Loged In",
+      user: req.user,
+    });
+  } else {
+    res.status(403).json({ error: true, message: "Not Authorized" });
+  }
+});
+
+app.get("/logout", (req, res) => {
+  req.logout(function (err) {
+    if (err) {
+      return next(err);
+    }
+    req.session.destroy();
+    res.redirect(process.env.CLIENT_URL);
+  });
 });
 
 app.use("/auth", authRouter);
 
 app.use("/foods", foodsRouter);
 
-app.use(authentication);
+// app.use(authentication);
 
 app.use("/breakfast", breakfastRouter);
 
@@ -72,8 +96,8 @@ app.use("/snack", snackRouter);
 
 app.use("/dinner", dinnerRouter);
 
-app.use("/exercise/cardio",cardioRouter);
-app.use("/exercise/strength",strengthRouter);
+app.use("/exercise/cardio", cardioRouter);
+app.use("/exercise/strength", strengthRouter);
 
 app.listen(process.env.PORT, async () => {
   try {

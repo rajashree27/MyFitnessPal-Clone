@@ -1,0 +1,127 @@
+.main {
+  /* border: 1px solid red; */
+  display: flex;
+  margin: auto;
+  width: 960px;
+  margin-bottom: 50px;
+}
+.d1 {
+  margin-top: 5%;
+  /* border: 1px solid red; */
+  height: 400px;
+  width: 124%;
+}
+.d2 {
+  /* border: 1px solid red; */
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1%;
+  color: #0a5282;
+}
+.d3 {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(5, 110px);
+  margin-top: 2%;
+}
+.d4 {
+  /* border: 1px solid red; */
+  display: flex;
+  /* height: 100px;
+    width: 100px; */
+}
+.d4_1 {
+  /* border: 1px solid red; */
+  height: 75%;
+  width: 33%;
+}
+.d4_2 {
+  /* border: 1px solid red; */
+  height: 75%;
+  width: 50%;
+  margin-left: 6%;
+}
+.d4_3 {
+  color: blue;
+  text-align: left;
+  cursor: pointer;
+}
+.d4_3:hover {
+  color: rgb(241, 195, 14);
+}
+.d4_4 {
+  font-size: 12px;
+  color: grey;
+  text-align: left;
+}
+.d4_5 {
+  border: 1px solid rgb(180, 174, 174);
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 4px;
+  margin-top: 10%;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.26, #fbfbfb),
+    color-stop(0.75, #ebebeb)
+  );
+}
+.a:hover{
+  text-decoration: none;
+  color: black;
+}
+.d5 {
+  /* border: 1px solid red; */
+  height: 480px;
+  width: 20%;
+  margin-left: 18%;
+}
+
+
+.cg {
+  margin-top: 16%;
+  text-align: left;
+  height: 10%;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 500;
+}
+.d8 {
+  border-bottom: 1px solid #c4ddee;
+  height: 10%;
+  width: 100%;
+  text-align: left;
+  padding: 5%;
+  font-size: 13px;
+  color: blue;
+}
+.d8:hover {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+.d8:active {
+  background-color: #1174b9;
+  padding-left: 10px;
+}
+.d6 {
+  border: 1px solid rgb(162, 164, 165);
+  background-color: rgb(240, 242, 242);
+  height: 36px;
+  display: flex;
+}
+.input{
+  /* border: 1px solid red; */
+  background-color: rgb(240, 242, 242);
+  width: 90%;
+  outline: 0px;
+  font-size: 12px;
+}

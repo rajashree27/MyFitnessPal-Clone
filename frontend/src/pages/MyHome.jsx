@@ -89,10 +89,10 @@ const LeftSummaryUP = styled.div`
     text-align: center;
   }
   span {
-    font-size: 11px;
+    font-size: 13px;
     color: blue;
-    margin-left: 20px;
-    margin-top: 55px;
+    ${"" /* margin-left: 1px; */}
+    position:relative;
   }
 `;
 
@@ -119,8 +119,8 @@ const RightSummaryUP = styled.div`
   div:nth-child(2) {
     display: flex;
 
-    input {
-      width: 90px;
+    button {
+      width: 130px;
       height: 30px;
       margin: 5px;
       margin-top: 24px;
@@ -486,31 +486,24 @@ const MyHome = () => {
           <SummaryBodyUP>
             <LeftSummaryUP>
               <p>No photo provided</p>
-              <span>Upload photo</span>
+              <span>
+                <a href="">Upload photo</a>
+              </span>
             </LeftSummaryUP>
             <RightSummaryUP>
               <div>
                 <p>
                   Calories Remaining <span>Change</span>
                 </p>
-                <p>2110</p>
+                <p>1500</p>
               </div>
               <div>
-              <button onClick={() => navigate("exercise")}>Add Exercise</button>
-                <input
-                  type="text"
-                  placeholder="Add Exercise"
-                  onClick={() => navigate("exercise")}
-                />
-                <input
-                  type="text"
-                  placeholder="Add Food"
-                  onClick={() => navigate("food")}
-                />
+                <button onClick={() => navigate("/exercise")}>Add Exercise</button>
+                <button onClick={() => navigate("/foods")}>Add Food</button>
               </div>
               <div>
                 <div>
-                  <span>2110</span>
+                  <span>1500</span>
                   <h5>GOAL</h5>
                 </div>
                 <div>
@@ -600,10 +593,7 @@ const MyHome = () => {
         </LeftDiv>
         <RightDiv>
           <RightAdv>
-            <img
-              src="https://bit.ly/3Ra3H4m"
-              alt=""
-            />
+            <img src="https://bit.ly/3Ra3H4m" alt="" />
           </RightAdv>
           <Para1>
             <div>

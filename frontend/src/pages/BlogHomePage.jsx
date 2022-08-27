@@ -13,6 +13,8 @@ const BlogHomePage = () => {
     </div>
     </>
   );
+
+
 };
 
 export default BlogHomePage;
