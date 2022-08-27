@@ -1,0 +1,366 @@
+/* PremiumNavbar */
+
+.PremiumNavbar {
+	width: 100vw;
+	margin-top: 15px;
+}
+
+.PremiumNavbar img {
+	cursor: pointer;
+	width: 200px;
+}
+
+.loginSignupButtons {
+	display: flex;
+}
+
+.navBarTop {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+}
+
+.navBarBottom {
+	margin-top: 15px;
+	display: flex;
+	gap: 30px;
+	width: 100vw;
+	padding: 10px;
+	background-color: #0066ee;
+	color: white;
+	overflow: hidden;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.navBarBottom div {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navBarBottom div:nth-of-type(1) {
+	margin-left: 200px;
+}
+
+/* ******************************************* */
+
+/* Top Section */
+
+.TopSec {
+	height: 100vh;
+	display: flex;
+	gap: 60px;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../../assets/healthyfoodsPremium.webp"),
+		url("../../assets/bg-signup.webp");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right, left;
+}
+
+.TopSecLeft {
+	width: 100%;
+	flex: 40%;
+	align-items: center;
+	justify-content: center;
+	margin-left: 150px;
+	/* align-items: center;
+    justify-content: center; */
+}
+
+.TopSecRight {
+	width: 100%;
+	flex: 60%;
+}
+
+.TopSecLeft > button {
+	margin-top: 30px;
+}
+
+.premiumYellowBox {
+	background-color: gold;
+	font-weight: 500;
+	padding: 5px 20px;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.topSecRightImage {
+	width: auto;
+	height: 500px;
+}
+
+/* ******************************************* */
+
+/* GridOptionsSection */
+
+.gridOptions {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	text-align: center;
+}
+
+.gridOptions img {
+	height: 200px;
+	align-self: center;
+	margin: auto;
+}
+
+/* ******************************************* */
+
+/* YourGoalsSection */
+
+.yourGoalsSection {
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+	background-image: url("../../assets/PremiumWomen.webp"),
+		url("../../assets/PremiumMan.webp");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-position: left top, right bottom;
+	text-align: center;
+}
+
+.yourGoalsSection img {
+	margin: 40px auto;
+}
+
+/* ******************************************* */
+
+/* victoryStoriesSection */
+
+.victoryStoriesSection {
+	width: 100%;
+	margin: auto;
+	margin-top: 70px;
+	background-image: url("../../assets/bg-signup.webp");
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: right, left;
+	text-align: center;
+	/* height: 100vh; */
+}
+
+.SliderContainer {
+	display: flex;
+	width: 80%;
+	flex: 1 1 1;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.sliderDataContainer {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.sliderDataContainer img {
+	height: 200px;
+	width: 100%;
+}
+
+.sliderDataBox {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	align-items: center;
+	width: 350px;
+	height: 300px;
+	padding-bottom: 20px;
+}
+
+/* ******************************************* */
+
+/* FrequentlyAskedQuestions */
+
+.FAQContainer {
+	width: 70%;
+	margin: auto;
+	margin-top: 100px;
+	background-image: url("../../assets/bg-signup.webp");
+	background-repeat: repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.premiumYellowBoxFAQ {
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+/* ******************************************* */
+
+/* GoPremiumSection */
+
+.GoPremiumSection {
+	width: 100%;
+	margin: auto;
+	margin-top: 70px;
+	background-image: url("../../assets/healthyfoodsPremium.webp"),
+		url("../../assets/bg-signup.webp");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right, left bottom;
+	height: 100vh;
+	text-align: center;
+}
+
+.annualMonthlyBoxes {
+	display: flex;
+	gap: 20px;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.annualBox {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	height: 280px;
+	width: 350px;
+	padding: 0 30px 30px 30px;
+	border-color: gold;
+	border-radius: 8px;
+}
+
+.monthlyBox {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 30px;
+	height: 280px;
+	width: 350px;
+	border-radius: 8px;
+}
+
+/* ******************************************* */
+
+/* Media queries */
+
+@media all and (max-width: 480px) {
+	/* Navbar ************************* */
+	.PremiumNavbar img {
+		width: 150px;
+	}
+
+	.navBarTop {
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.navBarBottom {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 10px;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.navBarBottom div {
+		font-size: 12px;
+	}
+
+	.navBarBottom div:nth-of-type(1) {
+		margin-left: 0px;
+	}
+
+	/* Top Section */
+	.TopSec {
+		height: fit-content;
+		flex-direction: column;
+		align-items: left;
+		justify-content: left;
+		background-image: url("../../assets/bg-signup.webp");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left;
+		margin-top: 30px;
+	}
+
+	.TopSecLeft {
+		width: 100%;
+		flex: 100%;
+		margin-left: 50px;
+	}
+
+	.TopSecRight {
+		margin-top: -30px;
+		flex: 100%;
+	}
+
+	/* Grid options */
+
+	.gridOptions {
+		width: 90%;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.gridOptions img {
+		height: 150px;
+		margin: 10px auto;
+	}
+
+	/* YourGoalsSection */
+	.yourGoalsSection {
+		margin-top: 50px;
+		background-image: url("../../assets/bg-signup.webp");
+		background-size: cover;
+		background-position: left;
+	}
+
+	.yourGoalsSection p {
+		font-size: 12px;
+	}
+
+	.yourGoalsSection img {
+		margin: 20px auto;
+	}
+
+	/* VictoryStories */
+	.victoryStoriesSection {
+		margin-top: 40px;
+	}
+
+	.victoryStoriesSection p {
+		font-size: 14px;
+	}
+
+	.SliderContainer {
+		width: 100%;
+		flex: 1 1 1;
+		margin-top: -30px;
+	}
+
+	.sliderDataContainer {
+		flex-direction: column;
+		width: 70%;
+	}
+
+	/* FrequentlyAskedSection */
+	.FAQContainer {
+		width: 90%;
+		margin-top: 40px;
+	}
+
+	/* GoPremiumSection */
+	.GoPremiumSection {
+		width: 90%;
+		background-image: url("../../assets/bg-signup.webp");
+		background-position: cover;
+		height: fit-content;
+	}
+
+	.annualMonthlyBoxes {
+		flex-direction: column;
+	}
+}

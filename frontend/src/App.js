@@ -11,19 +11,14 @@ import { Routes, Route } from "react-router-dom";
 import BlogHomePage from "./pages/BlogHomePage.jsx";
 import Recipes_Page from "./pages/Recipes_Page";
 import AllRoutes from "./AllRoutes";
+
 import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
     <div>
-      <Headertop/>
-      <Header/>
-      {/* <AllRoutes/> */}
-      <Routes>
-        <Route path="myHome" element={<MyHome />} />
-        <Route path="apps" element={<AppPage />} />
-      </Routes>
-      <Footer/>
+      <AllRoutes />
     </div>
   );
 }

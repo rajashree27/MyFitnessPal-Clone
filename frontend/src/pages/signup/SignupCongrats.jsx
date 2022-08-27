@@ -9,23 +9,25 @@ import {
 import React from "react";
 import SignupNavbar from "../../components/signup/SignupNavbar";
 import "./SignupStyles.css";
+import { useNavigate } from "react-router-dom";
 
 const SignupCongrats = () => {
+	const navigate = useNavigate();
 	return (
 		<>
 			<SignupNavbar />
 			<Box className="signupWrapper">
 				<Box className="insideBox" h="fit-content" p="20px">
-					<Heading fontSize="30px" my="10px" color="blue.600" as="b">
+					<Heading fontSize="30px" my="10px" color="#0066EE" as="b">
 						Congratulations!
 					</Heading>
 					<Text as="b" my="10px" align="center" fontSize="lg">
 						Your daily net calorie goal is:
 					</Text>
 					<Text mb="10px" align="center" as="b" fontSize="4xl">
-						1630
+						1500
 					</Text>
-					<Text my="10px" align="center" as="b" fontSize="lg" color="blue.500">
+					<Text my="10px" align="center" as="b" fontSize="lg" color="#0066EE">
 						calories
 					</Text>
 
@@ -46,7 +48,7 @@ const SignupCongrats = () => {
 						MyFitnessPal experts. Plus, a first look at new features!
 					</Text>
 
-					<Button colorScheme="blue" fontSize="18px" mt="20px">
+					<Button bg="#0066EE" color="white" fontSize="18px" mt="20px" onClick={()=>navigate("/login")}>
 						EXPLORE MYFITNESSPAL
 					</Button>
 				</Box>

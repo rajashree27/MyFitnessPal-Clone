@@ -178,8 +178,11 @@
     }
     .mid-column {
         width: 100%;
+        margin-top: -25px;
         background-size: contain;
         background-position: center;
+        width: 100vh;
+        height: 650px;
     }
     .container {
         width: 100%;
@@ -189,7 +192,77 @@
         margin: 15px 0;
     }
     .second-section {
+        margin-top: -335px;
+    }
+    .whiteLine {
+        display: none;
+    }
+    .second-section-heading {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .second-section-des {
+        padding-top: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .third-section {
+        padding-top: 20px;
+        height: 120px;
+    }
+    .third-section-img {
+        width: 80%;
+    }
+    .input-box {
         width: 100%;
+        padding: 6px;
+    }
+    .inner-input-box input {
+        font-size: 12px;
+        width: 100%;
+        outline: 0;
+    }
+    .search-Icon {
+        padding-top: 6px;
+        width: 3%;
+        font-size: 12px;
+        right: 15px;
+    }
+    .fourth-section-innerBox {
+        width: 90%;
+        margin-top: -40px;
+    }
+    .fourth-section-des {
+        width: 90%;
+        padding-top: 12px;
+    }
+    .fifth-section {
+        width: 90%;
+    }
+    .fifth-section-heading {
+        margin: 8px;
+    }
+    .fifth-section-des {
+        margin: 12px;
+    }
+    .carousel {
+        width: 90%;
+        margin: auto;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
+    .sixth-section {
+        width: 90%;
+    }
+    .sixth-section-heading {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .seventh-section {
+        width: 90%
+        ;
     }
 }
 

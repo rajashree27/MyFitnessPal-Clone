@@ -11,4 +11,10 @@ foodsRouter.post("/create", async (req, res) => {
     .catch((err) => res.status(400).send({ message: err }));
 });
 
+foodsRouter.get("/", async (req, res) => {
+  const {q} = req.query;
+  const foods= await FoodModel.find({"name" : { $regex: q, $options: "i"}})
+  res.status(200).send(foods)
+})
+
 module.exports = foodsRouter;
