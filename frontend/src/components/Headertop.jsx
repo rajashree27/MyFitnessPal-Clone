@@ -5,18 +5,18 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 export const Headertop = () => {
   const navigate = useNavigate();
-  const data = JSON.parse(localStorage.getItem(""));
+  const data = JSON.parse(localStorage.getItem("username"));
 
   return (
     <div>
       <div className={style.headcaring}>
         <img
-          src="https://i.pinimg.com/originals/53/24/0a/53240a99b0159c5a16937e5ac479f78a.png"
+          src="https://bit.ly/3pONQwh"
           alt=""
         />
         <div className={style.lscaring}>
           {data ? (
-            <h4 className={style.headloging}>Hi, {data.name}</h4>
+            <h4 className={style.headloging}>Hi, {data}</h4>
           ) : (
             <h4>Hi,username</h4>
           )}
@@ -25,7 +25,7 @@ export const Headertop = () => {
             onClick={() => {
               localStorage.removeItem("");
 
-              navigate("/login");
+              navigate("");
             }}
           >
             Log Out

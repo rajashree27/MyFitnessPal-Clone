@@ -23,7 +23,7 @@
 .d3 {
   display: grid;
   grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(3, 110px);
+  grid-template-rows: repeat(5, 110px);
   margin-top: 2%;
 }
 .d4 {
@@ -58,10 +58,12 @@
 }
 .d4_5 {
   border: 1px solid rgb(180, 174, 174);
+  font-size: 12px;
+  font-weight: 600;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 9%;
-  margin-left: -7%;
+  padding-top: 4px;
+  margin-top: 10%;
   border-radius: 5px;
   background-color: #ebebeb;
   background-image: -webkit-gradient(
@@ -72,23 +74,19 @@
     color-stop(0.75, #ebebeb)
   );
 }
-.d5{
-    /* border: 1px solid red; */
-    height: 480px;
-    width: 20%;
-    margin-left: 18%;
+.a:hover{
+  text-decoration: none;
+  color: black;
 }
-.d6{
-  border: 1px solid grey;
-  display: flex;
-  width: 50%;
+.d5 {
+  /* border: 1px solid red; */
+  height: 480px;
+  width: 20%;
+  margin-left: 18%;
 }
-.d7{
-  height: 25px;
-  width: 25px;
-  padding: 4px;
-}
-.cg{
+
+
+.cg {
   margin-top: 16%;
   text-align: left;
   height: 10%;
@@ -96,8 +94,8 @@
   font-size: 17px;
   font-weight: 500;
 }
-.d8{
-  border-bottom:1px solid #c4ddee;
+.d8 {
+  border-bottom: 1px solid #c4ddee;
   height: 10%;
   width: 100%;
   text-align: left;
@@ -105,13 +103,25 @@
   font-size: 13px;
   color: blue;
 }
-.d8:hover{
+.d8:hover {
   background-color: blue;
   color: white;
   font-weight: bold;
 }
-.d8:active{
-    background-color: #1174b9;
-    padding-left: 10px;
- 
+.d8:active {
+  background-color: #1174b9;
+  padding-left: 10px;
+}
+.d6 {
+  border: 1px solid rgb(162, 164, 165);
+  background-color: rgb(240, 242, 242);
+  height: 36px;
+  display: flex;
+}
+.input{
+  /* border: 1px solid red; */
+  background-color: rgb(240, 242, 242);
+  width: 90%;
+  outline: 0px;
+  font-size: 12px;
 }

@@ -10,6 +10,9 @@ import SignupUsername from './pages/signup/SignupUsername'
 import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
+import AppPage from './pages/AppPage'
+import MyHome from './pages/MyHome'
+import Header from './components/Header'
 import Home from './pages/Home'
 import BlogHomePage from './pages/BlogHomePage'
 import Food from './pages/Food'
@@ -20,8 +23,14 @@ import LunchSearch from './pages/LunchSearch'
 import DinnerSearch from './pages/DinnerSearch'
 import SnackSearch from './pages/SnackSearch'
 
+
 const AllRoutes = () => {
   return (
+    <>
+    
+  
+    
+    
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/signup' element={<SignupWelcome />} />
@@ -40,7 +49,9 @@ const AllRoutes = () => {
         <Route path='/lunchSearch' element={<LunchSearch />} />
         <Route path='/dinnerSearch' element={<DinnerSearch />} />
         <Route path='/snackSearch' element={<SnackSearch />} />
+
     </Routes>
+    </>
   )
 }
 
