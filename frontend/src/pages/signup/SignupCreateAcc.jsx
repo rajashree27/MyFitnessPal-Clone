@@ -1,4 +1,5 @@
 import {
+
 	Box,
 	Button,
 	Heading,
@@ -14,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { registerAPI } from "../../redux/auth/register/actionsRegister";
 
 const SignupCreateAcc = () => {
+
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 	
@@ -41,6 +43,10 @@ const SignupCreateAcc = () => {
 
 	
 	const { isReg } = useSelector((state) => state.register);
+  
+   const googleAuth = () => {
+    window.open(`${process.env.REACT_APP_API_URL}/google/callback`, "_self");
+  };
 
 	useEffect(() => {
 		if (isReg) navigate("/signupCongrats");
@@ -116,6 +122,7 @@ const SignupCreateAcc = () => {
 								variant="outline"
 								w="350px"
 								color="#0066EE"
+                onClick={googleAuth}
 							>
 								CONTINUE WITH GOOGLE
 							</Button>
@@ -140,6 +147,7 @@ const SignupCreateAcc = () => {
 			</Box>
 		</>
 	);
+
 };
 
 export default SignupCreateAcc;

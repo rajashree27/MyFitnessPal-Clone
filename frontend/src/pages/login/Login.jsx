@@ -9,8 +9,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { loginAPI } from "../../redux/auth/login/actionsLogin";
 
 const Login = () => {
+
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
+  
+  const googleAuth = () => {
+    window.open(`${process.env.REACT_APP_API_URL}/google/callback`, "_self");
+  };
 
 	const [loginCreds, setLoginCreds] = useState({
 		email: "",
@@ -97,6 +102,7 @@ const Login = () => {
 								variant="outline"
 								w="350px"
 								mb="20px"
+                onClick={googleAuth}
 							>
 								CONTINUE WITH GOOGLE
 							</Button>

@@ -1,45 +1,84 @@
 import { Box, Button, Divider, Image } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../../pages/premium/PremiumStyles.css";
 import fitnesLogo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const NavbarPremium = () => {
-	const navigate = useNavigate();
+  const navigate = useNavigate();
+  const [user, setUser] = useState({});
 
-	return (
-		<Box className="PremiumNavbar">
-			<Box className="navBarTop">
-				<Image src={fitnesLogo} onClick={() => navigate("/")} />
-				<Box className="loginSignupButtons">
-					<Button
-						variant="ghost"
-						color="#0066EE"
-						onClick={() => navigate("/login")}
-					>
-						Log In
-					</Button>
-					<Divider orientation="vertical" />
-					<Button
-						variant="ghost"
-						color="#0066EE"
-						onClick={() => navigate("/signup")}
-					>
-						Sign Up
-					</Button>
-				</Box>
-			</Box>
-			<Box className="navBarBottom">
-				<Box onClick={() => navigate("/")}>ABOUT</Box>
-				<Box>FOOD</Box>
-				<Box>EXERCISE</Box>
-				<Box>APPS</Box>
-				<Box>COMMUNITY</Box>
-				<Box onClick={() => navigate("/blog")}>BLOG</Box>
-				<Box onClick={() => navigate("/premium")}>PREMIUM</Box>
-			</Box>
-		</Box>
-	);
+  const getUser = async () => {
+    try {
+      const url = `${process.env.REACT_APP_API_URL}/login/success`;
+      const { data } = await axios.get(url, { withCredentials: true });
+      setUser(data.user._json);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  console.log(user.given_name);
+
+  const logout = () => {
+    window.open(`${process.env.REACT_APP_API_URL}/logout`, "_self");
+  };
+
+  useEffect(() => {
+    getUser();
+  }, []);
+
+  return (
+    <Box className="PremiumNavbar">
+      <Box className="navBarTop">
+        <Image src={fitnesLogo} onClick={() => navigate("/")} />
+        {!user.given_name ? (
+          <Box className="loginSignupButtons">
+            <Button
+              variant="ghost"
+              color="#0066EE"
+              onClick={() => navigate("/login")}
+            >
+              Log In
+            </Button>
+            <Divider orientation="vertical" />
+            <Button
+              variant="ghost"
+              color="#0066EE"
+              onClick={() => navigate("/signup")}
+            >
+              Sign Up
+            </Button>
+          </Box>
+        ) : (
+          <Box className="loginSignupButtons">
+            <Button
+              variant="ghost"
+              color="#0066EE"
+              onClick={() => navigate("/login")}
+            >
+              {user.given_name}
+            </Button>
+            <Divider orientation="vertical" />
+            <Button variant="ghost" color="#0066EE" onClick={logout}>
+              Log out
+            </Button>
+          </Box>
+        )}
+      </Box>
+      <Box className="navBarBottom">
+        <Box onClick={() => navigate("/")}>ABOUT</Box>
+        <Box>FOOD</Box>
+        <Box>EXERCISE</Box>
+        <Box>APPS</Box>
+        <Box>COMMUNITY</Box>
+        <Box onClick={() => navigate("/blog")}>BLOG</Box>
+        <Box onClick={() => navigate("/premium")}>PREMIUM</Box>
+      </Box>
+    </Box>
+  );
+
 };
 
 export default NavbarPremium;
