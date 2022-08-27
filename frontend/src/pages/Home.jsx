@@ -31,7 +31,7 @@ import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const navigate = useNavigate();
-  
+
   return (
     <>
       <NavbarPremium />
@@ -81,12 +81,12 @@ const Home = () => {
         <Box className="second-section">
           <Box className="whiteLine"></Box>
           <Box className="second-section-heading">
-            <Heading as={"h2"} size="2xl">
+            <Heading as={"h2"} size={{ base: "xl" }}>
               Search over 11 million foods in our database.
             </Heading>
           </Box>
           <Box className="second-section-des">
-            <Text fontSize={"xl"}>
+            <Text fontSize={{ base: "md", lg: "xl" }}>
               What's in your food? Learn about calories count, nutritions
               information and serving size.
             </Text>
@@ -107,29 +107,33 @@ const Home = () => {
         <Box className="fourth-section">
           <Box className="fourth-section-innerBox">
             <Box className="fourth-section-heading" mt={"16"}>
-              <Heading as={"h3"} size={"2xl"}>
+              <Heading as={"h3"} size={{ base: "lg", lg: "2xl" }}>
                 The Tools for Your Goals
               </Heading>
             </Box>
-            <Box className="fourth-section-des" mt={5}>
-              <Text fontSize={"lg"}>
+            <Box className="fourth-section-des" mt={{ base: 2, lg: 5 }}>
+              <Text fontSize={{ base: "md", lg: "lg" }}>
                 Trying to lose weight, tone up, lower your BMI, or invest in
                 your overall health? We give you the right features to hit your
                 goals.
               </Text>
             </Box>
-            <Flex m="16" gap={"40px"}>
+            <Flex
+              m={{ base: "4", md: 8, lg: 16 }}
+              gap={{ base: "20px", lg: "40px" }}
+              flexDirection={{ base: "column", lg: "row", md: "column" }}
+            >
               <Box>
                 <Box>
                   <Image src={diary} m={"auto"} />
                 </Box>
-                <Box m={2}>
+                <Box m={{ base: 1, lg: 2 }}>
                   <Heading as={"h5"} size="md">
                     Learn. Track. Improve.
                   </Heading>
                 </Box>
                 <Box>
-                  <Text>
+                  <Text fontSize={{ base: "md", lg: "lg" }}>
                     Keeping a food diary helps you understand your habits and
                     increases your likehood of hitting your goals.
                   </Text>
@@ -139,13 +143,13 @@ const Home = () => {
                 <Box>
                   <Image src={barcode} m="auto" />
                 </Box>
-                <Box m="2">
+                <Box m={{ base: 1, lg: 2 }}>
                   <Heading as={"h5"} size="md">
                     Logging Simplified
                   </Heading>
                 </Box>
                 <Box>
-                  <Text>
+                  <Text fontSize={{ base: "md", lg: "lg" }}>
                     Scan barcodes, save meals and recipes, and use Quick Tools
                     for fast and easy food tracking.
                   </Text>
@@ -155,13 +159,13 @@ const Home = () => {
                 <Box>
                   <Image src={shoe} m={"auto"} />
                 </Box>
-                <Box m={2}>
+                <Box m={{ base: 1, lg: 2 }}>
                   <Heading as={"h5"} size="md">
                     Stay Motivated
                   </Heading>
                 </Box>
                 <Box>
-                  <Text>
+                  <Text fontSize={{ base: "md", lg: "lg" }}>
                     Join the World’s Largest Fitness Community for advice, tips,
                     and support 24/7.
                   </Text>
@@ -178,12 +182,12 @@ const Home = () => {
         <Box className="fifth-section">
           <Box>
             <Box className="fifth-section-heading">
-              <Heading as={"h1"} size={"2xl"}>
+              <Heading as={"h1"} size={{ base: "xl", sm: "2xl" }}>
                 Victory Stories
               </Heading>
             </Box>
             <Box className="fifth-section-des">
-              <Text>
+              <Text fontSize={{ base: "md", lg: "lg" }}>
                 When you reach your goals, our whole community celebrates with
                 you. That’s over 200 million members sharing in your
                 victory—using it to inspire their own journey.
@@ -234,20 +238,24 @@ const Home = () => {
         </Box>
         <Box className="sixth-section">
           <Box className="sixth-section-heading">
-            <Heading as={"h2"} size={"2xl"}>
+            <Heading as={"h2"} size={{ base: "xl", sm: "2xl" }}>
               Recipes & Inspiration
             </Heading>
-            <Text fontSize={"md"} pt="8" pr={16} pb={8} pl={16}>
+            <Text fontSize={{ base: "md", lg: "lg" }} p={{ base: 2, lg: "8" }}>
               Get nutritionist-approved recipes and motivational workout tips
               from MyFitnessPal experts.
             </Text>
           </Box>
-          <Flex gap={"8"}>
+          <Flex
+            gap={{ base: 6, lg: 8 }}
+            flexDirection={{ base: "column", md: "column", lg: "row" }}
+            mt={{ base: 2, lg: 4 }}
+          >
             <Box className="sixth-section-cards">
               <Box>
                 <Image src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbreakfast-300-calories.d991cc82.png&w=1920&q=75" />
               </Box>
-              <Box m={3} h={"50px"}>
+              <Box m={{ base: 2, lg: 3 }} h={{ base: "40px", lg: "50px" }}>
                 <Heading as={"h5"} size={"sm"}>
                   15 Make-Ahead Breakfasts Under 300 Calories
                 </Heading>
@@ -262,7 +270,7 @@ const Home = () => {
               <Box>
                 <Image src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcheat-days.a49e92b5.jpg&w=1920&q=75" />
               </Box>
-              <Box m={3} h={"50px"}>
+              <Box m={{ base: 2, lg: 3 }} h={{ base: "40px", lg: "50px" }}>
                 <Heading as={"h5"} size={"sm"}>
                   The Problem With Cheat Days
                 </Heading>
@@ -277,7 +285,7 @@ const Home = () => {
               <Box>
                 <Image src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgetting-moving.e3e4042a.png&w=1920&q=75" />
               </Box>
-              <Box m={3} h={"50px"}>
+              <Box m={{ base: 2, lg: 3 }} h={{ base: "40px", lg: "50px" }}>
                 <Heading as={"h5"} size={"sm"}>
                   Essential Guide to Getting Moving
                 </Heading>
@@ -291,24 +299,27 @@ const Home = () => {
           </Flex>
         </Box>
         <Box className="seventh-section">
-          <Box className="seventh-section-heading" mt={"24"}>
-            <Heading as="h1" size={"2xl"}>
+          <Box
+            className="seventh-section-heading"
+            mt={{ base: "20px", lg: "24px" }}
+          >
+            <Heading as="h1" size={{ base: "xl", sm: "2xl" }}>
               Connect with over 50 apps.
             </Heading>
           </Box>
-          <Box pt={8}>
-            <Text>
+          <Box pt={{ base: 4, md: 6 }}>
+            <Text fontSize={{ base: "md", sm: "xl" }}>
               Easily link your MyFitnessPal account with apps that support your
               healthier lifestyle. It’s not just about calories. It’s about
               feeling better, looking better, and living better.
             </Text>
           </Box>
-          <Box mt={16}>
+          <Box mt={[8, 16]}>
             <Image src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimg-apps%402x.85e549ef.png&w=1920&q=75" />
           </Box>
-          <Flex justifyContent={"center"} mt={16}>
-            <Image src={appStore} w={"200px"} />
-            <Image src={googlePlay} w={"200px"} />
+          <Flex justifyContent={"center"} mt={16} w={{base: "80%"}} m="auto">
+            <Image src={appStore} w={["150px", "200px"]} />
+            <Image src={googlePlay} w={["150px", "200px"]} />
           </Flex>
         </Box>
       </Box>
