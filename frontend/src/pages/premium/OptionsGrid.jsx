@@ -27,9 +27,9 @@ const arr = [
 const OptionsGrid = () => {
 	return (
 		<Box className="gridOptions">
-			{arr.map((el) => {
+			{arr.map((el,id) => {
 				return (
-					<Box>
+					<Box key={id}>
 						<Box alignItems="center">
 							<Image src={el.img} />
 						</Box>

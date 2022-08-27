@@ -12,6 +12,7 @@ import SignupCongrats from './pages/signup/SignupCongrats'
 import Login from './pages/login/Login'
 import Premium from './pages/premium/Premium'
 import Home from './pages/Home'
+import BlogHomePage from './pages/BlogHomePage'
 import SignupPleaseSelect from './pages/signup/SignupPleaseSelect'
 import Food from './pages/Food'
 import SearchPage from './pages/BreakfastSearch'
@@ -28,7 +29,6 @@ const AllRoutes = () => {
         <Route path='/signup' element={<SignupWelcome />} />
         <Route path='/signupWeightGoal' element={<SignupWeightGoal />} />
         <Route path='/signupActivity' element={<SignupActivity />} />
-        <Route path='/signupPleaseSelect' element={<SignupPleaseSelect />} />
         <Route path='/signupTall' element={<SignupTall />} />
         <Route path='/signupWeekly' element={<SignupWeekly />} />
         <Route path='/signupCreateAccount' element={<SignupCreateAcc />} />
@@ -37,6 +37,7 @@ const AllRoutes = () => {
         <Route path='/foods' element={<Food />} />
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
+        <Route path='/blog' element={<BlogHomePage />} />
         <Route path='/breakfastSearch' element={<BreakfastSearch />} />
         <Route path='/lunchSearch' element={<LunchSearch />} />
         <Route path='/dinnerSearch' element={<DinnerSearch />} />

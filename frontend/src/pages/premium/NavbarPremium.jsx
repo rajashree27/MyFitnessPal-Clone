@@ -73,11 +73,12 @@ const NavbarPremium = () => {
         <Box>EXERCISE</Box>
         <Box>APPS</Box>
         <Box>COMMUNITY</Box>
-        <Box>BLOG</Box>
+        <Box onClick={() => navigate("/blog")}>BLOG</Box>
         <Box onClick={() => navigate("/premium")}>PREMIUM</Box>
       </Box>
     </Box>
   );
+
 };
 
 export default NavbarPremium;
