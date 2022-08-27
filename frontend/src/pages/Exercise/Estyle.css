@@ -1,0 +1,144 @@
+.section1{
+    width: 700px;
+    justify-content: center;
+    margin-left: 320px;
+}
+.table{
+    margin: auto;
+    width: 800px;
+    margin-top: 40px;
+}
+.a{
+    color: #00548F;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 0;
+    text-transform: capitalize;
+    width: 450px;
+}
+.b{
+    background-color: #00548F;
+    border: 1px solid #fff;
+    
+   padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+   
+    color: #fff;
+    width: 200px;
+    height: 20px;
+}
+.table3{
+    margin: auto;
+    width: 800px;
+}
+.table2{
+    margin-bottom: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: #0072BF;
+}
+.talika{
+    margin: auto;
+    width: 800px;
+    
+    margin-left: 650px;
+}
+.x{
+    color: #141516;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0;
+    text-transform: capitalize;
+    width: 180px;
+    
+}
+.y{
+    background-color: #00548F;
+    border: 1px solid #fff;
+    padding: 8px 7px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    
+    width: 200px;
+    font: bold 14px arial, helvetica, sans-serif;
+    text-align: center;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #fff;
+}
+p{
+    font-size: 18px;
+    color:  #00548F;
+}
+.nput{
+   width: 800px;
+   height: 130px;
+   border: 1px solid black;
+}
+.sinput{
+    border: 1px solid black;
+}
+.text{
+    color: #00548F;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 0;
+    text-transform: capitalize;
+    width: 470px;
+}
+.text2{
+    color: #444444;
+    font-size: 20px;
+  font-weight: 600;
+}
+
+.line{
+    width: 800px;
+    height: 5px;
+    background-color: rgb(156, 153, 153);
+    margin: auto;
+}
+.line1{
+    width: 800px;
+    height: 2.2px;
+    background-color: rgb(156, 153, 153);
+    margin: auto;
+    margin-top: 20px;
+}
+.last{
+    margin-left: 330px;
+}
+
+.abcd{
+    display: flex;
+}
+.add2{
+    width: 200px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: -70px;
+}
+.add1{
+  height: 170px;
+  width: 1020px;
+  margin: auto;
+}
+.lastbutton{
+    color: #fff;
+    background-color: rgb(111, 180, 8);
+    border-radius: 8px;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+}
+.hello{
+    margin-left: 500px;
+}

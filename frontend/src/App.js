@@ -1,13 +1,14 @@
 import "./App.css";
 import AllRoutes from "./AllRoutes";
 
+
+
 function App() {
   return (
-  
-      <AllRoutes />
-   
-
-  );
+    <div>
+      <AllRoutes/>
+    </div>
+      );
 }
 
 export default App;
