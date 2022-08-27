@@ -35,8 +35,6 @@ const AllRoutes = () => {
 
         <Route path='/login' element={<Login />} />
         <Route path='/premium' element={<Premium />} />
-        <Route path="/myHome" element={<MyHome />} />
-        <Route path="/apps" element={<AppPage />} />
     </Routes>
     </>
   )
