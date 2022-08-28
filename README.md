@@ -16,6 +16,8 @@ The project has been completed within the duration of 5 days. Each of us had sha
 
 **Link of our deployed project**: https://myfitnesspal-clone.netlify.app/
 
+**Link of our video presentation**: https://drive.google.com/file/d/1x0N1f6gydt3haBlE9GPjD9PyzrlJGHQw/view?usp=sharing
+
 ## Tech Stack and features
 - React
 - Redux
