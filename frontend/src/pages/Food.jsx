@@ -39,6 +39,7 @@ const Food = () => {
 				m={"auto"}
 				height="100vh"
 				p={{ base: "3", md: "4", lg: "5" }}
+				style={{height:"fit-content"}}
 			>
 				<Flex>
 					<Box w={{ base: "80%", md: "80%", lg: "80%" }}>
