@@ -3,9 +3,13 @@ import { Sliders } from "./Slider";
 import Styles from "../styling/AppPage.module.css";
 import { GrFormSearch } from "react-icons/gr";
 import { BiSearch } from "react-icons/bi";
+import Headertop from "../components/Headertop";
+import Header from "../components/Header";
 const AppPage = () => {
   return (
     <>
+    <Headertop/>
+    <Header/>
       <div className={Styles.main}>
         <div>
           <div>
