@@ -27,3 +27,32 @@ The project has been completed within the duration of 5 days. Each of us had sha
 - Styled Components
 - Responsiveness
 
+
+## Glimpse and screenshots of our cloned website:
+**Landing Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/landingPage.png?raw=true)
+
+**Premium Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/premium.png?raw=true)
+
+**SignUp Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/signup.png?raw=true)
+
+**Login Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/login.png?raw=true)
+
+**Home Page after login**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/homeAfterLogin.png?raw=true)
+
+**Apps Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/apps.png?raw=true)
+
+**Food Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/food.png?raw=true)
+
+**Add Food Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/addFood.png?raw=true)
+
+**Exercise Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/exercise.png?raw=true)
+
