@@ -20,7 +20,7 @@ export const Headertop = () => {
           {data ? (
             <h4 className={style.headloging}>Hi, {data}</h4>
           ) : (
-            <h4>Hi,username</h4>
+            <h4>Hi there!</h4>
           )}
           <h5>Help</h5>|<h5>Settings</h5>|
           <h5

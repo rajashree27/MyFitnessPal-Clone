@@ -11,8 +11,8 @@ Swipercore.use([Navigation, Pagination, Scrollbar, A11y]);
 const TRENDINGARTICLESDATA = [
   {
     id: 1,
-    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/13726-featured-700x400.jpg",
-    des: "Healthier Kung Pao Chicken",
+    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/49723-featured-700x400.jpg",
+    des: "3 Metabolism-Boosting Micronutrients For Weight Loss",
   },
   {
     id: 2,
@@ -26,8 +26,8 @@ const TRENDINGARTICLESDATA = [
   },
   {
     id: 4,
-    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/50655-featured-700x400.jpg",
-    des: "5 Summer Desserts With Less Than 100 Calories",
+    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/19653-featured-700x400.jpg",
+    des: "How to Establish a Healthy Morning Routine",
   },
   {
     id: 5,
@@ -36,8 +36,8 @@ const TRENDINGARTICLESDATA = [
   },
   {
     id: 6,
-    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/32714-featured-700x400.jpg",
-    des: "28-Day Squat, Plank & Lunge Plan",
+    img: "https://blog.myfitnesspal.com/wp-content/uploads/wordpress-popular-posts/30083-featured-700x400.jpg",
+    des: "Your 6-Week Belly Fat Blasting Walking Plan",
   },
   {
     id: 7,
