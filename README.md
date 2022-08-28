@@ -34,8 +34,14 @@ The project has been completed within the duration of 5 days. Each of us had sha
 **Landing Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/landingPage.png?raw=true)
 
+**Responsive Landing Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/responsive_Home.png?raw=true)
+
 **Premium Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/premium.png?raw=true)
+
+**Responsive Premium Page**
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/responsive_Premium.png?raw=true)
 
 **SignUp Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/signup.png?raw=true)
