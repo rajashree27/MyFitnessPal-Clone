@@ -3,6 +3,7 @@ import style from "../styling/headerbar.module.css";
 import { useNavigate, Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+
 export const Headertop = () => {
   const navigate = useNavigate();
   const data = JSON.parse(localStorage.getItem("username"));
@@ -13,6 +14,7 @@ export const Headertop = () => {
         <img
           src="https://bit.ly/3pONQwh"
           alt=""
+          onClick={()=>navigate("/myHome")}
         />
         <div className={style.lscaring}>
           {data ? (

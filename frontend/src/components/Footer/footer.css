@@ -18,8 +18,10 @@
 	margin-top: 1.7%;
   }
   .b5 {
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: 1%;
+	text-align: center;
+	color: black;
   }
   .tag {
 	font-size: 12px;

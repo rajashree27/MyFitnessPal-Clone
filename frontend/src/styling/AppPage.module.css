@@ -8,7 +8,7 @@
 .d1 {
   margin-top: 5%;
   /* border: 1px solid red; */
-  height: 400px;
+  height: fit-content;
   width: 124%;
 }
 .d2 {
@@ -19,6 +19,7 @@
   border-bottom: 1px solid grey;
   padding-bottom: 1%;
   color: #0a5282;
+  /* margin-top: -90px; */
 }
 .d3 {
   display: grid;
