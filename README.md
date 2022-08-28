@@ -62,5 +62,5 @@ The project has been completed within the duration of 5 days. Each of us had sha
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/blog.jpeg?raw=true)
 
 **Recipes Page**
-![App Screenshot][https://raw.githubusercontent.com/rajashree27/smooth-flavor-1645/30697ee7e3f174373885f1ddc22bd3f8f4bdf31a/screenshots/recipes.jpeg?token=ASLIMGTQN6G4NE3EYRGRHE3DBMACG](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/recipes.jpeg?raw=true)
+![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/recipes.jpeg?raw=true)
 
