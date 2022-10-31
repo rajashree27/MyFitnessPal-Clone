@@ -3,7 +3,7 @@
 ## Team members:
 1. Rajashree Chakraborty
 2. Manish Tiwari
-3. MD NAUSHAD AHAMED
+3. Md. Naushad Ahamed
 4. Sunil sahu
 5. Shahrukh
 
