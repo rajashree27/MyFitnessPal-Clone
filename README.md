@@ -1,6 +1,20 @@
 # myFitnessPal - Clone
 
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- React (18.2.0)
+- Redux (4.2.0)
+- Redux Thunks (4.2.1)
+- Node.js
+- Express.js
+- MongoDB
+- Chakra UI (2.2.4)
+
 ## Team members:
+
 1. Rajashree Chakraborty
 2. Manish Tiwari
 3. Md. Naushad Ahamed
@@ -8,7 +22,7 @@
 5. Shahrukh
 
 ## Project Details:
-MyFitnessPal is a smartphone app and website that tracks diet and exercise  This is a MERN full stack collaborative project which is a clone of the [myFitnessPal.com](https://www.myfitnesspal.com/) website.
+MyFitnessPal is a smartphone app and website that tracks diet and exercise. This is a MERN full stack collaborative project which is a clone of the [myFitnessPal.com](https://www.myfitnesspal.com/) website.
 
 The project has been completed within the duration of 5 days. Each of us had shared work and responsibilities and learnt a lot during the course of this project.
 
@@ -18,30 +32,20 @@ The project has been completed within the duration of 5 days. Each of us had sha
 
 **Link of our video presentation**: https://drive.google.com/file/d/1x0N1f6gydt3haBlE9GPjD9PyzrlJGHQw/view?usp=sharing
 
-## Tech Stack and features
-- React
-- Redux
-- Redux Thunks
-- Node.js
-- Express.js
-- MongoDB
-- Chakra UI
-- Styled Components
-- Responsiveness
+# Features and functionalities
 
+- Sign-up/sign-in
+- Manage diet
+- Add/delete food to breakfast/lunch/snack/dinner
+- View blog
 
 ## Glimpse and screenshots of our cloned website:
+
 **Landing Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/landingPage.png?raw=true)
 
-**Responsive Landing Page**
-![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/responsive_Home.png?raw=true)
-
 **Premium Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/premium.png?raw=true)
-
-**Responsive Premium Page**
-![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/responsive_Premium.png?raw=true)
 
 **SignUp Page**
 ![App Screenshot](https://github.com/rajashree27/smooth-flavor-1645/blob/master/screenshots/signup.png?raw=true)
