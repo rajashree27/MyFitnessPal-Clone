@@ -1,0 +1,22 @@
+{
+  "name": "myfitnesspal-clone",
+  "version": "1.0.0",
+  "description": "- HTML\r - CSS\r - JavaScript\r - React (18.2.0)\r - Redux (4.2.0)\r - Redux Thunks (4.2.1)\r - Node.js\r - Express.js\r - MongoDB\r - Chakra UI (2.2.4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajashree27/MyFitnessPal-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajashree27/MyFitnessPal-Clone/issues"
+  },
+  "homepage": "https://github.com/rajashree27/MyFitnessPal-Clone#readme"
+}
